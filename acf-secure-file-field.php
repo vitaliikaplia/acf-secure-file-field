@@ -160,7 +160,8 @@ function asff_handle_ajax_upload() {
 // 4. Download Handler
 add_action( 'template_redirect', 'asff_handle_download_link' );
 function asff_handle_download_link() {
-    if ( ! isset( $_GET['secure-file-download'] ) ) {
+    // SECURITY: Check if the download key is present and not empty.
+    if ( empty( $_GET['secure-file-download'] ) ) {
         return;
     }
 
