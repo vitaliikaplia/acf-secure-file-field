@@ -1,0 +1,39 @@
+.acf-secure-file-wrapper {
+    border: 1px dashed #ccc;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+.asff-progress-bar {
+    height: 5px;
+    background: #e0e0e0;
+    margin-top: 10px;
+    display: none;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.asff-progress-bar .bar {
+    height: 100%;
+    background: #2271b1;
+    width: 0;
+    transition: width 0.2s;
+}
+.acf-secure-file-preview {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.acf-secure-file-preview.has-file {
+    display: flex;
+}
+.hidden {
+    display: none !important;
+}
+.file-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filename {
+    font-weight: 600;
+}

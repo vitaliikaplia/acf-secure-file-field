@@ -1,0 +1,2351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: acf-secure-file\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-23 18:15+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
+"Language-Team: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acf-secure-file-field.php:42 acf-secure-file-field.php:257
+#: acf-secure-file-field.php:258
+msgid "Settings"
+msgstr "Настройки"
+
+#: acf-secure-file-field.php:52 acf-secure-file-field.php:54
+msgid "Secured Files"
+msgstr "Защищенные файлы"
+
+#: acf-secure-file-field.php:53
+msgid "Secured File"
+msgstr "Защищенный файл"
+
+#: acf-secure-file-field.php:80
+msgid "Permission denied"
+msgstr "Доступ запрещен"
+
+#: acf-secure-file-field.php:84
+msgid "No file uploaded"
+msgstr "Файл загружен: %s"
+
+#: acf-secure-file-field.php:92
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "К сожалению, данный тип файла запрещен к загрузке."
+
+#: acf-secure-file-field.php:153
+msgid "Failed to create database record"
+msgstr "Не удалось создать запись в базе данных"
+
+#: acf-secure-file-field.php:156
+msgid "Failed to move uploaded file"
+msgstr "Не удалось переместить загруженный файл"
+
+#: acf-secure-file-field.php:190
+msgid "You do not have permission to download this file."
+msgstr "У вас нет прав на загрузку этого файла."
+
+#: acf-secure-file-field.php:190
+msgid "Access Denied"
+msgstr "Доступ закрыт"
+
+#: acf-secure-file-field.php:231
+msgid "File not found on server."
+msgstr "Файл не найден на сервере."
+
+#: acf-secure-file-field.php:231 acf-secure-file-field.php:234
+msgid "Error"
+msgstr "Ошибка"
+
+#: acf-secure-file-field.php:234
+msgid "Invalid download link."
+msgstr "Неверная ссылка для скачивания."
+
+#: acf-secure-file-field.php:247
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: acf-secure-file-field.php:286
+msgid "Download Access Control"
+msgstr "Контроль доступа скачиваний"
+
+#: acf-secure-file-field.php:293
+msgid "Who can download files?"
+msgstr "Кто может скачивать файлы?"
+
+#: acf-secure-file-field.php:301
+msgid "Allowed Roles"
+msgstr "Разрешенные роли"
+
+#: acf-secure-file-field.php:309
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: acf-secure-file-field.php:316
+msgid "Upload Directory Name"
+msgstr "Имя каталога для загрузки"
+
+#: acf-secure-file-field.php:324
+msgid "General plugin settings."
+msgstr "Общие настройки плагина."
+
+#: acf-secure-file-field.php:335
+msgid ""
+"The directory name cannot be changed because secure files have already been "
+"uploaded."
+msgstr ""
+"Имя каталога не может быть изменено, поскольку уже были загружены защищенные "
+"файлы."
+
+#: acf-secure-file-field.php:339
+msgid ""
+"The name of the folder inside wp-content where files will be stored. Use "
+"lowercase letters, numbers, and hyphens only."
+msgstr ""
+"Название папки внутри wp-content, в которой будут храниться файлы. "
+"Используйте только строчные буквы, цифры и дефисы."
+
+#: acf-secure-file-field.php:346
+msgid "Control who is allowed to download the secure files."
+msgstr "Контролируйте, кому разрешено загружать защищенные файлы."
+
+#: acf-secure-file-field.php:354
+msgid "Anyone with the link"
+msgstr "Любой, у кого есть ссылка"
+
+#: acf-secure-file-field.php:355
+msgid "Any logged-in user"
+msgstr "Любой зарегистрированный пользователь"
+
+#: acf-secure-file-field.php:356
+msgid "Users with specific roles"
+msgstr "Пользователи с определенными ролями"
+
+#: acf-secure-file-field.php:375
+msgid ""
+"This is only active when \"Users with specific roles\" is selected above."
+msgstr ""
+"Эта опция активна только в том случае, если выше выбрано «Пользователи с "
+"определенными ролями»."
+
+#: acf-secure-file-field.php:454
+msgid "File Type"
+msgstr "Тип файла"
+
+#: acf-secure-file-field.php:455
+msgid "File Size"
+msgstr "Размер файла"
+
+#: acf-secure-file-field.php:472
+msgid "File not found"
+msgstr "Файл не найден"
+
+#: acf-secure-file-field.php:501
+msgid "This file does not have a valid download link."
+msgstr "Этот файл не имеет действительной ссылки для скачивания."
+
+#: includes/class-acf-field-secure-file.php:8
+msgid "Secure File"
+msgstr "Безопасный файл"
+
+#: includes/class-acf-field-secure-file.php:46
+msgid "Download"
+msgstr "Скачать"
+
+#: includes/class-acf-field-secure-file.php:50
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/class-acf-field-secure-file.php:57
+msgid "Select a file for secure upload"
+msgstr "Выберите файл для безопасной загрузки"
+
+#~ msgid "Portal options"
+#~ msgstr "Параметры портала"
+
+#~ msgid "Portal"
+#~ msgstr "Портал"
+
+#~ msgid "Portal options updated"
+#~ msgstr "Параметры портала обновлены"
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "Payment options"
+#~ msgstr "Опции оплаты"
+
+#~ msgid "Options"
+#~ msgstr "Опции"
+
+#~ msgid "Payment options updated"
+#~ msgstr "Опции оплаты обновлены"
+
+#~ msgid "IP blocked due to multiple failed attempts"
+#~ msgstr "IP заблокирован из-за нескольких неудачных попыток"
+
+#~ msgid "Session information:"
+#~ msgstr "Информация о сеансе:"
+
+#~ msgid "Your IP blocked. Try again later!"
+#~ msgstr "Ваш IP заблокирован. Повторите попытку позже!"
+
+#~ msgid "Nonce verification failed during authorization confirmation"
+#~ msgstr ""
+#~ "Проверка одноразового кода не удалась во время подтверждения авторизации"
+
+#~ msgid "Required fields missing during authorization confirmation"
+#~ msgstr "Отсутствуют обязательные поля при подтверждении авторизации"
+
+#~ msgid "Incorrect PIN code entered during authorization confirmation"
+#~ msgstr "Введен неверный PIN-код при подтверждении авторизации"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "Pin code is incorrect"
+#~ msgstr "Неверный пин-код"
+
+#~ msgid "Email and PIN code"
+#~ msgstr "Электронная почта и PIN-код"
+
+#~ msgid "User signed in with Email and PIN code"
+#~ msgstr "Пользователь вошел в систему с помощью электронной почты и PIN-кода"
+
+#~ msgid "Authentication type:"
+#~ msgstr "Тип аутентификации:"
+
+#~ msgid "New user registered with Email and PIN code"
+#~ msgstr ""
+#~ "Новый пользователь зарегистрирован с помощью электронной почты и PIN-кода"
+
+#~ msgid "WP-nonce error during authorization attempt"
+#~ msgstr "Ошибка WP-nonce при попытке авторизации"
+
+#~ msgid "WP-nonce error"
+#~ msgstr "Ошибка WP-нонса"
+
+#~ msgid "Email length error during authorization attempt"
+#~ msgstr "Ошибка длины электронного письма при попытке авторизации"
+
+#~ msgid "Email length error"
+#~ msgstr "Ошибка длины электронного письма"
+
+#~ msgid "Email format error during authorization attempt"
+#~ msgstr "Ошибка формата электронной почты при попытке авторизации"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Email format error"
+#~ msgstr "Ошибка формата электронной почты"
+
+#~ msgid "CAPTCHA not completed during authorization attempt"
+#~ msgstr "CAPTCHA не заполнена при попытке авторизации"
+
+#~ msgid "Please, complete the CAPTCHA"
+#~ msgstr "Пожалуйста, заполните CAPTCHA"
+
+#~ msgid "CAPTCHA verification failed during authorization attempt"
+#~ msgstr "Проверка CAPTCHA не прошла во время попытки авторизации"
+
+#~ msgid "CAPTCHA verification failed. Please, try again."
+#~ msgstr "Проверка CAPTCHA не удалась. Пожалуйста, попробуйте еще раз."
+
+#~ msgid "Enter verification code from Email"
+#~ msgstr "Введите проверочный код из Email"
+
+#~ msgid "Your verification code"
+#~ msgstr "Ваш код подтверждения"
+
+#~ msgid "Authorization attempt"
+#~ msgstr "Попытка авторизации"
+
+#~ msgid "Security check failed on brief form submission."
+#~ msgstr ""
+#~ "Не удалось выполнить проверку безопасности при отправке краткой формы."
+
+#~ msgid "New brief form submission"
+#~ msgstr "Новая краткая форма подачи заявки"
+
+#~ msgid "New brief form submission:"
+#~ msgstr "Отправка новой краткой формы:"
+
+#~ msgid "Email has been changed and confirmed."
+#~ msgstr "Электронная почта была изменена и подтверждена."
+
+#~ msgid "Phone has been changed and confirmed."
+#~ msgstr "Телефон был изменен и подтвержден."
+
+#~ msgid "Payment verification"
+#~ msgstr "Проверка платежа"
+
+#~ msgid "Account renewal"
+#~ msgstr "Пролонгация аккаунта"
+
+#~ msgid "Your verification code is"
+#~ msgstr "Ваш код подтверждения"
+
+#~ msgid "Enter verification code from SMS"
+#~ msgstr "Введите проверочный код из СМС"
+
+#~ msgid "Phone Confirmation"
+#~ msgstr "Подтверждение телефона"
+
+#~ msgid "Nonce verification failed during checkout renew"
+#~ msgstr "Проверка одноразового кода не удалась во время продления аккаунта"
+
+#~ msgid "Payment for account renewal"
+#~ msgstr "Оплата продления аккаунта"
+
+#~ msgid "until"
+#~ msgstr "до "
+
+#~ msgid "Payment for account renewal until"
+#~ msgstr "Оплата продления аккаунта до"
+
+#~ msgid "New payment order"
+#~ msgstr "Новый платеж"
+
+#~ msgid "Payment title"
+#~ msgstr "Название платежа"
+
+#~ msgid "Client"
+#~ msgstr "Клиент"
+
+#~ msgid "Account"
+#~ msgstr "Аккаунт"
+
+#~ msgid "Session information"
+#~ msgstr "Информация о сеансе"
+
+#~ msgid "Edit Email"
+#~ msgstr "Редактировать Email"
+
+#~ msgid "Edit Phone"
+#~ msgstr "Редактировать телефон"
+
+#~ msgid "Please, enter an email."
+#~ msgstr "Пожалуйста, введите Email."
+
+#~ msgid "Please, enter a valid email."
+#~ msgstr "Пожалуйста, введите действительный Email."
+
+#~ msgid "This is the same email as the old one."
+#~ msgstr "Это тот же самый Email, что и старый."
+
+#~ msgid "This email is already taken."
+#~ msgstr "Этот адрес электронной почты уже занят."
+
+#~ msgid "Please, enter a phone."
+#~ msgstr "Пожалуйста, введите телефон."
+
+#~ msgid "Please, enter a valid phone."
+#~ msgstr "Пожалуйста, введите действующий телефон."
+
+#~ msgid "This is the same phone as the old one."
+#~ msgstr "Это тот же самый телефон, что и старый."
+
+#~ msgid "This phone is already in use."
+#~ msgstr "Этот телефон уже используется."
+
+#~ msgid "Your phone number updated successfully."
+#~ msgstr "Ваш номер телефона успешно обновлен."
+
+#~ msgid "Google One Tap"
+#~ msgstr "Google One Tap"
+
+#~ msgid "User signed in with Google One Tap"
+#~ msgstr "Пользователь вошел в систему с помощью Google One Tap"
+
+#~ msgid "Your account is not active. Data download is not available."
+#~ msgstr "Ваша учетная запись не активна. Загрузка данных недоступна."
+
+#~ msgid "Delete Profile"
+#~ msgstr "Удалить профиль"
+
+#~ msgid "He-he-he, my friend, nope!"
+#~ msgstr "Хе-хе-хе, мой друг, нет!"
+
+#~ msgid "Account deletion"
+#~ msgstr "Удаление учетной записи"
+
+#~ msgid "Account deletion code sent to user email: "
+#~ msgstr ""
+#~ "Код удаления учетной записи отправлен на электронную почту пользователя: "
+
+#~ msgid "Code: "
+#~ msgstr "Код: "
+
+#~ msgid ""
+#~ "Warning! To delete your account enter verification code from your Email."
+#~ msgstr ""
+#~ "Внимание! Для удаления аккаунта введите проверочный код с вашего Email."
+
+#~ msgid "WP-nonce error during support_form attempt"
+#~ msgstr "Ошибка WP-nonce при попытке support_form"
+
+#~ msgid "topic length error during support_form attempt"
+#~ msgstr "Ошибка длины темы при попытке support_form"
+
+#~ msgid "topic length error"
+#~ msgstr "ошибка длины темы"
+
+#~ msgid "message length error during support_form attempt"
+#~ msgstr "Ошибка длины сообщения при попытке отправки support_form"
+
+#~ msgid "message length error"
+#~ msgstr "ошибка длины сообщения"
+
+#~ msgid "Support form submit"
+#~ msgstr "Отправить форму поддержки"
+
+#~ msgid "Topic:"
+#~ msgstr "Тема:"
+
+#~ msgid "Message:"
+#~ msgstr "Сообщение:"
+
+#~ msgid "User delete nonce failed."
+#~ msgstr "Ошибка удаления пользователя."
+
+#~ msgid "User delete secret decryption failed."
+#~ msgstr "Не удалось расшифровать секрет при удалении пользователя."
+
+#~ msgid "User provided incorrect pin code for account deletion. Provided: "
+#~ msgstr ""
+#~ "Пользователь ввел неверный PIN-код для удаления учетной записи. Введено: "
+
+#~ msgid "User deleted account. User ID: "
+#~ msgstr "Пользователь удалил учетную запись. Идентификатор пользователя: "
+
+#~ msgid "Email: "
+#~ msgstr "Email: "
+
+#~ msgid "Button Type"
+#~ msgstr "Тип кнопки"
+
+#~ msgid "Button Style"
+#~ msgstr "Стиль кнопки"
+
+#~ msgid "- Select Style -"
+#~ msgstr "- Выберете стиль -"
+
+#~ msgid "Icon"
+#~ msgstr "Иконка"
+
+#~ msgid "- No Icon -"
+#~ msgstr "- Без иконки -"
+
+#~ msgid "Icon Position"
+#~ msgstr "Позиция иконки"
+
+#~ msgid "Left"
+#~ msgstr "Слева"
+
+#~ msgid "Right"
+#~ msgstr "Справа"
+
+#~ msgid "Icon Select"
+#~ msgstr "Выбор иконки"
+
+#~ msgid "- Select Icon -"
+#~ msgstr "- Выберите иконку -"
+
+#~ msgid "Nav Menu"
+#~ msgstr "Навигационное меню"
+
+#~ msgid "Return Value"
+#~ msgstr "Возвращаемое значение"
+
+#~ msgid "Specify the returned value on front end"
+#~ msgstr "Укажите возвращаемое значение"
+
+#~ msgid "Nav Menu Object"
+#~ msgstr "Объект меню"
+
+#~ msgid "Nav Menu HTML"
+#~ msgstr "HTML меню"
+
+#~ msgid "Nav Menu ID"
+#~ msgstr "ID меню"
+
+#~ msgid "All"
+#~ msgstr "Все"
+
+#~ msgid "Menu Container"
+#~ msgstr "Контейнер меню"
+
+#~ msgid "What to wrap the Menu's ul with (when returning HTML only)"
+#~ msgstr "Обертка для меню"
+
+#~ msgid "Allow Null?"
+#~ msgstr "Разрешить пустое значение?"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Choose one"
+#~ msgstr "Выберите"
+
+#~ msgid "GitHub Repository"
+#~ msgstr "Репозиторий GitHub"
+
+#~ msgid "Select multiple values?"
+#~ msgstr "Выбрать несколько значений?"
+
+#~ msgid "Allow null?"
+#~ msgstr "Разрешить null?"
+
+#~ msgid "Select repository"
+#~ msgstr "Выбрать репозиторий"
+
+#~ msgid "Ukraine Hosting Databases"
+#~ msgstr "Базы данных Украина Хостинг"
+
+#~ msgid "Select database"
+#~ msgstr "Выбрать базу данных"
+
+#~ msgid "Ukraine Hosting Domains"
+#~ msgstr "Домены Хостинг Украина"
+
+#~ msgid "Select domain"
+#~ msgstr "Выберите домен"
+
+#~ msgid "Ukraine Hosting Mail Domains"
+#~ msgstr "Почтовые домены Хостинга Украина"
+
+#~ msgid "Select mail domain"
+#~ msgstr "Выберите почтовый домен"
+
+#~ msgid "Ukraine Hosting Sites"
+#~ msgstr "Сайты Хостинг Украина"
+
+#~ msgid "Accounts"
+#~ msgstr "Аккаунты"
+
+#~ msgid "Add account"
+#~ msgstr "Добавить аккаунт"
+
+#~ msgid "Add new account"
+#~ msgstr "Добавить новый аккаунт"
+
+#~ msgid "Edit"
+#~ msgstr "Править"
+
+#~ msgid "Edit account"
+#~ msgstr "Редактировать аккаунт"
+
+#~ msgid "New account"
+#~ msgstr "Новый аккаунт"
+
+#~ msgid "View"
+#~ msgstr "Просмотр"
+
+#~ msgid "View account"
+#~ msgstr "Просмотр аккаунта"
+
+#~ msgid "Search for accounts"
+#~ msgstr "Поиск аккаунтов"
+
+#~ msgid "No accounts found"
+#~ msgstr "Аккаунты не найдены"
+
+#~ msgid "No accounts found in trash"
+#~ msgstr "В корзине не найдено аккаунтов"
+
+#~ msgid "Parent account"
+#~ msgstr "Родительский аккаунт"
+
+#~ msgid "Main image"
+#~ msgstr "Главное изображение"
+
+#~ msgid "Set main image"
+#~ msgstr "Установить главное изображение"
+
+#~ msgid "Remove main image"
+#~ msgstr "Удалить главное изображение"
+
+#~ msgid "Use as main image"
+#~ msgstr "Использовать как главное изображение"
+
+#~ msgid "Payments"
+#~ msgstr "Платежи"
+
+#~ msgid "Payment"
+#~ msgstr "Оплата"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "New"
+#~ msgstr "Новый"
+
+#~ msgid "Search for payments"
+#~ msgstr "Поиск платежей"
+
+#~ msgid "No payments found"
+#~ msgstr "Платежи не найдены"
+
+#~ msgid "No payments found in trash"
+#~ msgstr "Нет удаленных платежей"
+
+#~ msgid "Parent"
+#~ msgstr "Родитель"
+
+#~ msgid "Mail log"
+#~ msgstr "Email логи"
+
+#~ msgid "Search for mail logs"
+#~ msgstr "Поиск журналов почты."
+
+#~ msgid "No mail logs found"
+#~ msgstr "Журналы почты не найдены."
+
+#~ msgid "No mail logs found in trash"
+#~ msgstr "В корзине не найдено журналов почты."
+
+#~ msgid "SMS log"
+#~ msgstr "SMS логи"
+
+#~ msgid "Search for SMS logs"
+#~ msgstr "Поиск SMS логов"
+
+#~ msgid "No SMS logs found"
+#~ msgstr "Логи SMS не найдены"
+
+#~ msgid "No SMS logs found in trash"
+#~ msgstr "В корзине не найдено SMS логов"
+
+#~ msgid "Redirect rules"
+#~ msgstr "Правила перенаправления"
+
+#~ msgid "Redirect rule"
+#~ msgstr "Правило перенаправления"
+
+#~ msgid "Add redirect rule"
+#~ msgstr "Добавьте правило перенаправления"
+
+#~ msgid "Add new redirect rule"
+#~ msgstr "Добавьте новое правило перенаправления"
+
+#~ msgid "Edit redirect rule"
+#~ msgstr "Редактирование правила перенаправления"
+
+#~ msgid "New redirect rule"
+#~ msgstr "Новое правило перенаправления"
+
+#~ msgid "View redirect rule"
+#~ msgstr "Просмотр правила перенаправления"
+
+#~ msgid "Search for redirect rules"
+#~ msgstr "Поиск правил перенаправлений"
+
+#~ msgid "No redirect rules found"
+#~ msgstr "Правила перенаправления не найдены"
+
+#~ msgid "No redirect rules found in trash"
+#~ msgstr "В корзине не найдено правил перенаправления"
+
+#~ msgid "Parent redirect rule"
+#~ msgstr "Родительское правило перенаправления"
+
+#~ msgid "Domain zone"
+#~ msgstr "Зона домена"
+
+#~ msgid "Price per year"
+#~ msgstr "Стоимость домена в год"
+
+#~ msgid "Account owner"
+#~ msgstr "Владелец аккаунта"
+
+#~ msgid "Members"
+#~ msgstr "Участники"
+
+#~ msgid "Expiration date"
+#~ msgstr "Дата окончания"
+
+#~ msgid "Price"
+#~ msgstr "Цена"
+
+#~ msgid "Translate"
+#~ msgstr "Перевод"
+
+#~ msgid "Generate"
+#~ msgstr "Генерировать"
+
+#~ msgid "Powered by"
+#~ msgstr "Работает на"
+
+#~ msgid "Invalid mail log ID"
+#~ msgstr "Неверный идентификатор почтового журнала"
+
+#~ msgid "Email log information"
+#~ msgstr "Информация о Email отправке"
+
+#~ msgid "Email preview"
+#~ msgstr "Предварительный просмотр письма"
+
+#~ msgid "Recipient"
+#~ msgstr "Получатель"
+
+#~ msgid "Notifications"
+#~ msgstr "Уведомления"
+
+#~ msgid "Configure notifications settings"
+#~ msgstr "Настройка параметров уведомлений"
+
+#~ msgid ""
+#~ "In this section, you can configure the Email/SMS/Telegram notifications "
+#~ "for different events."
+#~ msgstr ""
+#~ "В этом разделе вы можете настроить уведомления по Email/SMS/Telegram для "
+#~ "различных событий."
+
+#~ msgid "Sign-in notifications"
+#~ msgstr "Уведомления о входе в систему"
+
+#~ msgid "Enable"
+#~ msgstr "Включить"
+
+#~ msgid "Enable email notification to users upon sign-in"
+#~ msgstr ""
+#~ "Включить уведомление пользователей по электронной почте при входе в "
+#~ "систему"
+
+#~ msgid "Subject"
+#~ msgstr "Тема"
+
+#~ msgid "Email content"
+#~ msgstr "Содержимое письма"
+
+#~ msgid "Enable Telegram notification to admin upon user sign-in"
+#~ msgstr ""
+#~ "Включить уведомление администратора в Telegram при входе пользователя в "
+#~ "систему"
+
+#~ msgid "Sign-up notifications"
+#~ msgstr "Уведомления о регистрации"
+
+#~ msgid "Enable email notification to users upon sign-up"
+#~ msgstr ""
+#~ "Включить уведомление пользователей по электронной почте при регистрации"
+
+#~ msgid "Enable Telegram notification to admin upon user sign-up"
+#~ msgstr ""
+#~ "Включить уведомление администратора в Telegram при регистрации "
+#~ "пользователя"
+
+#~ msgid "Images"
+#~ msgstr "Изображения"
+
+#~ msgid "Resize and optimize media while upload"
+#~ msgstr "Разрешить изменение размера медиафайлов при загрузке"
+
+#~ msgid ""
+#~ "In this section, you can enable resizing and optimization of images while "
+#~ "uploading them to the media library. You can specify the formats that "
+#~ "will be resized, set the width and height of the resized images, and "
+#~ "adjust the quality of the resized images. Additionally, you can enable "
+#~ "the conversion of images to the WEBP format, which is a modern image "
+#~ "format that provides better compression and quality compared to other "
+#~ "formats."
+#~ msgstr ""
+#~ "В этом разделе вы можете включить изменение размера и оптимизацию "
+#~ "изображений при загрузке их в медиатеку. Вы можете указать форматы, "
+#~ "которые будут изменены, задать ширину и высоту измененных изображений и "
+#~ "настроить качество измененных изображений. Кроме того, вы можете включить "
+#~ "преобразование изображений в формат WEBP, который является современным "
+#~ "форматом изображений, обеспечивающим лучшее сжатие и качество по "
+#~ "сравнению с другими форматами."
+
+#~ msgid "Resizing at upload"
+#~ msgstr "Изменить размер при загрузке"
+
+#~ msgid "Enable resizing media while upload"
+#~ msgstr "Разрешить изменение размера медиафайлов при загрузке"
+
+#~ msgid "Formats"
+#~ msgstr "Форматы"
+
+#~ msgid "Resize at upload formats"
+#~ msgstr "Форматы изменяемых изображений при загрузке"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Resize upload width"
+#~ msgstr "Максимальная ширина загружаемого изображения"
+
+#~ msgid "Height"
+#~ msgstr "Высота"
+
+#~ msgid "Resize upload height"
+#~ msgstr "Максимальная высота загружаемого изображения"
+
+#~ msgid "Quality"
+#~ msgstr "Качество"
+
+#~ msgid "Resize upload quality"
+#~ msgstr "Максимальная качество для ресайза"
+
+#~ msgid "WEBP convert"
+#~ msgstr "WEBP конвертация"
+
+#~ msgid "Enable WEBP convert"
+#~ msgstr "Включить конвертацию WEBP"
+
+#~ msgid "Webp convert quality"
+#~ msgstr "Качество конвертирования Webp"
+
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "Configure custom SMTP server"
+#~ msgstr "Активировать пользовательский SMTP сервер"
+
+#~ msgid "Enable custom SMTP server"
+#~ msgstr "Активировать пользовательский SMTP сервер"
+
+#~ msgid "SMTP host"
+#~ msgstr "SMTP хост"
+
+#~ msgid "SMTP port"
+#~ msgstr "SMTP порт"
+
+#~ msgid "SMTP username"
+#~ msgstr "SMTP пользователь"
+
+#~ msgid "SMTP password"
+#~ msgstr "SMTP пароль"
+
+#~ msgid "SMTP from name"
+#~ msgstr "SMTP имя отправителя"
+
+#~ msgid "Secure SMTP connection"
+#~ msgstr "Безопасное SMTP-соединение"
+
+#~ msgid "Use SSL for SMTP connection"
+#~ msgstr "Безопасное SMTP-соединение"
+
+#~ msgid "Custom code"
+#~ msgstr "Пользовательский код"
+
+#~ msgid "Custom HTML code for header and footer"
+#~ msgstr "Пользовательский HTML-код для верхнего и нижнего колонтитулов"
+
+#~ msgid "Header custom code"
+#~ msgstr "Код в шапку"
+
+#~ msgid "The custom code will be placed inside the header tag"
+#~ msgstr "Пользовательский код будет размещен внутри тега header"
+
+#~ msgid "After &#x3C;body&#x3E; custom code"
+#~ msgstr "Код после &#x3C;body&#x3E;"
+
+#~ msgid "The special code will be placed after the start of the body tag"
+#~ msgstr "Специальный код будет размещен после начала тега body"
+
+#~ msgid "Footer custom code"
+#~ msgstr "Код в подвал"
+
+#~ msgid "The special code will be placed before the end of the body tag"
+#~ msgstr "Специальный код будет размещен перед концом тега body"
+
+#~ msgid "Maintenance"
+#~ msgstr "Обслуживание"
+
+#~ msgid "Maintenance mode for anonymous users"
+#~ msgstr "Режим обслуживания для анонимных пользователей"
+
+#~ msgid ""
+#~ "In this section, you can enable maintenance mode for anonymous users, "
+#~ "customize the title and text that will be displayed on the maintenance "
+#~ "page."
+#~ msgstr ""
+#~ "В этом разделе вы можете включить режим обслуживания для анонимных "
+#~ "пользователей, настроить заголовок и текст, которые будут отображаться на "
+#~ "странице обслуживания."
+
+#~ msgid "Enable maintenance mode for anonymous users"
+#~ msgstr "Режим обслуживания для анонимных пользователей"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Maintenance mode title for anonymous users"
+#~ msgstr "Заголовок режима обслуживания для анонимных пользователей"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Maintenance mode text for anonymous users"
+#~ msgstr "Текст режима обслуживания для анонимных пользователей"
+
+#~ msgid "Integrations"
+#~ msgstr "Интеграции"
+
+#~ msgid "Integrations with third-party services options"
+#~ msgstr "Интеграция со сторонними сервисами"
+
+#~ msgid ""
+#~ "In this section, you can configure integrations with various third-party "
+#~ "services by providing the necessary API keys and tokens."
+#~ msgstr ""
+#~ "В этом разделе вы можете настроить интеграцию с различными сторонними "
+#~ "сервисами, указав необходимые API-ключи и токены."
+
+#~ msgid "Hosting Ukraine"
+#~ msgstr "Хостинг Украина"
+
+#~ msgid "Hosting Ukraine API Token"
+#~ msgstr "Хостинг Украина API Token"
+
+#~ msgid ""
+#~ "Enter your Hosting Ukraine API token to enable integration with their "
+#~ "services and features."
+#~ msgstr ""
+#~ "Введите свой API-токен Hosting Ukraine, чтобы обеспечить интеграцию с их "
+#~ "услугами и функциями."
+
+#~ msgid "Hosting Ukraine Account ID"
+#~ msgstr "Идентификатор учетной записи хостинга в Украине"
+
+#~ msgid ""
+#~ "Enter your Hosting Ukraine account ID to enable integration with their "
+#~ "services and features."
+#~ msgstr ""
+#~ "Введите идентификатор вашей учетной записи Hosting Ukraine, чтобы "
+#~ "обеспечить интеграцию с их услугами и функциями."
+
+#~ msgid "Hosting Ukraine Account Name"
+#~ msgstr "Хостинг Украина Имя счета"
+
+#~ msgid ""
+#~ "Enter your Hosting Ukraine account Name to enable integration with their "
+#~ "services and features."
+#~ msgstr ""
+#~ "Введите имя вашей учетной записи Hosting Ukraine, чтобы обеспечить "
+#~ "интеграцию с их услугами и функциями."
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
+
+#~ msgid "GitHub Access Token"
+#~ msgstr "GitHub Access Token"
+
+#~ msgid ""
+#~ "Enter your GitHub access token to enable integration with GitHub services "
+#~ "and features."
+#~ msgstr ""
+#~ "Введите свой токен доступа к GitHub, чтобы включить интеграцию с "
+#~ "сервисами и функциями GitHub."
+
+#~ msgid "Telegram Bot"
+#~ msgstr "Телеграм Бот"
+
+#~ msgid "Telegram Bot Token"
+#~ msgstr "Токен для бота Telegram"
+
+#~ msgid "Telegram Bot Chat ID"
+#~ msgstr "Telegram Bot Chat ID"
+
+#~ msgid "Telegram Bot Chat Thread ID"
+#~ msgstr "Telegram Bot Chat Thread ID"
+
+#~ msgid "Google OAuth"
+#~ msgstr "Google OAuth"
+
+#~ msgid "Google OAuth Client Secret"
+#~ msgstr "Секрет клиента Google OAuth"
+
+#~ msgid ""
+#~ "Google OAuth Client Secret to integrate with Google authorization services"
+#~ msgstr ""
+#~ "Google OAuth Client Secret для интеграции со службами авторизации Google"
+
+#~ msgid "link"
+#~ msgstr "ссылка"
+
+#~ msgid "LiqPay"
+#~ msgstr "LiqPay"
+
+#~ msgid "LiqPay public key"
+#~ msgstr "Публичный ключ LiqPay"
+
+#~ msgid "LiqPay public key to integrate with LiqPay services"
+#~ msgstr "Публичный ключ для интеграции с сервисами LiqPay"
+
+#~ msgid "LiqPay private key"
+#~ msgstr "Приватный ключ LiqPay"
+
+#~ msgid "LiqPay private key to integrate with LiqPay services"
+#~ msgstr "Приватный ключ для интеграции с сервисами LiqPay"
+
+#~ msgid "MonoBank"
+#~ msgstr "MonoBank"
+
+#~ msgid "MonoBank token"
+#~ msgstr "Токен MonoBank"
+
+#~ msgid "MonoBank token to integrate with MonoBank services"
+#~ msgstr "Токен MonoBank для интеграции с сервисами MonoBank"
+
+#~ msgid "Cloudflare"
+#~ msgstr "CloudFlare"
+
+#~ msgid "Cloudflare Turnstile Site Key"
+#~ msgstr "Ключ для сайта капчи Cloudflare"
+
+#~ msgid ""
+#~ "Cloudflare Turnstile Site Key to integrate with Cloudflare Turnstile "
+#~ "service"
+#~ msgstr ""
+#~ "Ключ сайта Cloudflare Turnstile для интеграции с сервисом Cloudflare "
+#~ "Turnstile"
+
+#~ msgid "Cloudflare Turnstile Secret Key"
+#~ msgstr "Секретный ключ капчи Cloudflare"
+
+#~ msgid ""
+#~ "Cloudflare Turnstile Secret Key to integrate with Cloudflare Turnstile "
+#~ "service"
+#~ msgstr ""
+#~ "Секретный ключ Cloudflare Turnstile для интеграции с сервисом Cloudflare "
+#~ "Turnstile"
+
+#~ msgid "SMS Services"
+#~ msgstr "Услуги SMS"
+
+#~ msgid "SMS-Fly"
+#~ msgstr "SMS-Fly"
+
+#~ msgid "Turbo SMS"
+#~ msgstr "Turbo SMS"
+
+#~ msgid "SMS service provider"
+#~ msgstr "Поставщик услуг СМС"
+
+#~ msgid "Select SMS service provider to integrate with SMS service"
+#~ msgstr "Выберите поставщика услуг SMS для интеграции с услугой SMS"
+
+#~ msgid "SMS-Fly username"
+#~ msgstr "Имя пользователя SMS-Fly"
+
+#~ msgid "SMS-Fly login to integrate with SMS-Fly service"
+#~ msgstr "SMS-Fly логин для интеграции с сервисом"
+
+#~ msgid "SMS-Fly password"
+#~ msgstr "Пароль SMS-Fly"
+
+#~ msgid "SMS-Fly password to integrate with SMS-Fly service"
+#~ msgstr "SMS-Fly пароль для интеграции с сервисом"
+
+#~ msgid "SMS-Fly alpha name"
+#~ msgstr "Альфа имя SMS-Fly"
+
+#~ msgid "SMS-Fly alpha name what will be used as SMS sender"
+#~ msgstr ""
+#~ "Альфа-имя, которое будет использоваться в качестве отправителя SMS в "
+#~ "сервисе SMS-Fly"
+
+#~ msgid "Turbo SMS token"
+#~ msgstr "Турбо SMS токен"
+
+#~ msgid "Turbo SMS token to integrate with Turbo SMS service"
+#~ msgstr "Токен Turbo SMS для интеграции с сервисом Turbo SMS"
+
+#~ msgid "Turbo SMS alpha name"
+#~ msgstr "Альфа имя Turbo SMS"
+
+#~ msgid "Turbo SMS alpha name what will be used as SMS sender"
+#~ msgstr ""
+#~ "Альфа-имя, которое будет использоваться в качестве отправителя SMS в "
+#~ "сервисе Turbo SMS"
+
+#~ msgid "HTTP Authentication API"
+#~ msgstr "API HTTP аутентификации"
+
+#~ msgid "HTTP Authentication API Token"
+#~ msgstr "Токен API HTTP аутентификации"
+
+#~ msgid ""
+#~ "API token from deployments service to get correct http logins and "
+#~ "passwords"
+#~ msgstr ""
+#~ "API-токен от службы развертывания для получения правильных HTTP логинов и "
+#~ "паролей"
+
+#~ msgid "AI Services"
+#~ msgstr "ИИ сервисы"
+
+#~ msgid "OpenAI"
+#~ msgstr "OpenAI"
+
+#~ msgid "Claude"
+#~ msgstr "Claude"
+
+#~ msgid "Gemini"
+#~ msgstr "Gemini"
+
+#~ msgid "AI Engine"
+#~ msgstr "ИИ движок"
+
+#~ msgid "Select AI engine for content generation"
+#~ msgstr "Выберите движок искусственного интеллекта для создания контента"
+
+#~ msgid "Open AI API key"
+#~ msgstr "Open AI ключ API"
+
+#~ msgid "Open AI API key to integrate with Open AI service"
+#~ msgstr "Ключ API Open AI для интеграции с сервисом"
+
+#~ msgid "Open AI API model"
+#~ msgstr "Модель Open AI"
+
+#~ msgid "Select Open AI API model to use"
+#~ msgstr "Выберите модель Open AI для использования"
+
+#~ msgid "tokens"
+#~ msgstr "токены"
+
+#~ msgid "Open AI max tokens"
+#~ msgstr "Токены Open AI"
+
+#~ msgid "Open AI max tokens to use"
+#~ msgstr "Максимальное количество токенов Open AI для использования"
+
+#~ msgid "Claude API key"
+#~ msgstr "Ключ API Claude"
+
+#~ msgid "Claude API key to integrate with Claude service"
+#~ msgstr "Ключ API Claude для интеграции с сервисом Claude"
+
+#~ msgid "Claude API model"
+#~ msgstr "Модель API Claude"
+
+#~ msgid "Select Claude API model to use"
+#~ msgstr "Выберите модель API Claude для использования "
+
+#~ msgid "Claude max tokens"
+#~ msgstr "Максимум токенов Claude"
+
+#~ msgid "Claude max tokens to use"
+#~ msgstr "Максимальное количество токенов Claude для использования"
+
+#~ msgid "Gemini API key"
+#~ msgstr "Ключ API Gemini"
+
+#~ msgid "Gemini API key to integrate with Gemini service"
+#~ msgstr "Ключ API Gemini для интеграции с сервисом Gemini"
+
+#~ msgid "Gemini API model"
+#~ msgstr "Модель API Gemini"
+
+#~ msgid "Select Gemini API model to use"
+#~ msgstr "Выберите модель API Gemini для использования"
+
+#~ msgid "Gemini max tokens"
+#~ msgstr "Максимальное количество токенов Gemini"
+
+#~ msgid "Gemini max tokens to use"
+#~ msgstr "Максимальное количество токенов Gemini для использования"
+
+#~ msgid "Other options"
+#~ msgstr "Прочие параметры"
+
+#~ msgid "All other various options"
+#~ msgstr "Прочие параметры"
+
+#~ msgid "Disable all updates"
+#~ msgstr "Отключить все обновления"
+
+#~ msgid "Disable plugins and WordPress core updates"
+#~ msgstr "Отключите плагины и обновления ядра WordPress"
+
+#~ msgid "Translation duplicates"
+#~ msgstr "Дубликаты переводов"
+
+#~ msgid "Create translation duplicates while adding posts"
+#~ msgstr "Создание дубликатов переводов при добавлении постов"
+
+#~ msgid "Hide ACF"
+#~ msgstr "Скрыть ACF"
+
+#~ msgid "Hide Advanced Custom Fields from Dashboard"
+#~ msgstr "Скрыть ACF из вдминки"
+
+#~ msgid "Disable wp-login.php"
+#~ msgstr "Отключить wp-login.php"
+
+#~ msgid "Disable default WordPress login screen"
+#~ msgstr "Отключить экран входа в WordPress по умолчанию"
+
+#~ msgid "tries"
+#~ msgstr "попыток"
+
+#~ msgid "Maximum PIN tries"
+#~ msgstr "Максимальное количество попыток ввода PIN-кода"
+
+#~ msgid "Maximum PIN tries before temporary lockout"
+#~ msgstr ""
+#~ "Максимальное количество попыток ввода PIN-кода до временной блокировки"
+
+#~ msgid "level"
+#~ msgstr "уровень"
+
+#~ msgid "Website download compression level"
+#~ msgstr "Уровень сжатия загрузки веб-сайта"
+
+#~ msgid ""
+#~ "Compression level for website download ZIP archive (0 - no compression, 9 "
+#~ "- maximum compression)"
+#~ msgstr ""
+#~ "Уровень сжатия для загрузки ZIP-архива веб-сайта (0 — без сжатия, 9 — "
+#~ "максимальное сжатие)"
+
+#~ msgid "Deployments portal link"
+#~ msgstr "Ссылка на портал деплойментов"
+
+#~ msgid "Test account default password"
+#~ msgstr "Пароль по умолчанию для тестового аккаунта"
+
+#~ msgid "Default password for test account (test@kaplia.pro) - 6 numbers"
+#~ msgstr ""
+#~ "Стандартный пароль для тестовой учетной записи (test@kaplia.pro) — 6 цифр"
+
+#~ msgid "Payment information"
+#~ msgstr "Платежная информация"
+
+#~ msgid "Payment raw information"
+#~ msgstr "Исходная информация о платеже"
+
+#~ msgid "Payment ID"
+#~ msgstr "ID платежа"
+
+#~ msgid "Completed payment"
+#~ msgstr "Завершенная оплата"
+
+#~ msgid "Unknown"
+#~ msgstr "Неизвестно"
+
+#~ msgid "SMS log information"
+#~ msgstr "Информация из SMS лога"
+
+#~ msgid "SMS Fly"
+#~ msgstr "SMS-Fly"
+
+#~ msgid "SMS log information response"
+#~ msgstr "Ответ сервиса отпарвки SMS"
+
+#~ msgid "Sent with"
+#~ msgstr "Отправлено с"
+
+#~ msgid "SMS Alpha Name"
+#~ msgstr "SMS альфа имя"
+
+#~ msgid "Deployments & HTTP authentication portal"
+#~ msgstr "Портал деплойментов и HTTP аутентификации"
+
+#~ msgid "Update theme version"
+#~ msgstr "Обновить версию темы"
+
+#~ msgid "Middle name"
+#~ msgstr "Отчество"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "Phone confirmed"
+#~ msgstr "Телефон подтвержден"
+
+#~ msgid "Birthday"
+#~ msgstr "День рождения"
+
+#~ msgid "Account Renewal Deadlines"
+#~ msgstr "Сроки продления учетной записи"
+
+#~ msgid "No accounts data available."
+#~ msgstr "Данные по аккаунтам"
+
+#~ msgid "No accounts to display."
+#~ msgstr "Нет аккаунтов для отображения."
+
+#~ msgid "Account Statistics"
+#~ msgstr "Статистика"
+
+#~ msgid "User"
+#~ msgstr "Пользователь"
+
+#~ msgid "Accessed the account"
+#~ msgstr "Доступ к учетной записи"
+
+#~ msgid "My Services page"
+#~ msgstr "Страница “Мои услуги”"
+
+#~ msgid "Order a Website page"
+#~ msgstr "Страница “Заказать сайт”"
+
+#~ msgid "Support page"
+#~ msgstr "Страница поддержки"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "You can not delete this material."
+#~ msgstr "Вы не можете удалить этот материал."
+
+#~ msgid "The Customizer is currently disabled."
+#~ msgstr "Customizer в настоящий момент отключен."
+
+#~ msgid "Icons Generated!"
+#~ msgstr "Иконки созданы!"
+
+#~ msgid "Don't forget to manually update your SVG favicon at:"
+#~ msgstr "Не забудьте вручную обновить ваш SVG-фавикон по адресу:"
+
+#~ msgid "Icons Deleted!"
+#~ msgstr "Иконки удалены!"
+
+#~ msgid "All PWA icons and manifest have been removed from the site root."
+#~ msgstr "Все иконки и манифесты PWA были удалены из корня сайта."
+
+#~ msgid "kb"
+#~ msgstr "кб"
+
+#~ msgid "mb"
+#~ msgstr "мб"
+
+#~ msgid "gb"
+#~ msgstr "гб"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "User signed in with Google OAuth"
+#~ msgstr "Пользователь вошел с помощью Google OAuth"
+
+#~ msgid "Account Renewal Notification"
+#~ msgstr "Уведомление о продлении аккаунта"
+
+#, php-format
+#~ msgid "Account: %s"
+#~ msgstr "Аккаунт: %s"
+
+#, php-format
+#~ msgid "Renewal Date: %s"
+#~ msgstr "Дата продления: %s"
+
+#, php-format
+#~ msgid "Days Remaining: %d"
+#~ msgstr "Оставшиеся дни: %d"
+
+#, php-format
+#~ msgid "Recipient: %s"
+#~ msgstr "Получатель: %s"
+
+#~ msgid "Redirect Rules Options"
+#~ msgstr "Параметры правил перенаправления"
+
+#~ msgid ""
+#~ "Invalid redirect rule: Old URL and New URL must be different and not "
+#~ "empty."
+#~ msgstr ""
+#~ "Неверное правило перенаправления: Старый URL и новый URL должны быть "
+#~ "разными и не пустыми."
+
+#~ msgid "Conflict detected: A redirect rule with this Old URL already exists."
+#~ msgstr ""
+#~ "Обнаружен конфликт: Правило перенаправления с этим URL уже существует."
+
+#~ msgid ""
+#~ "Invalid redirect rule: Old URL must contain the current WordPress domain."
+#~ msgstr ""
+#~ "Неверное правило перенаправления: Старый URL должен содержать текущий "
+#~ "домен WordPress."
+
+#~ msgid "Test"
+#~ msgstr "Тест"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Миниатюра"
+
+#~ msgid "Payment update received"
+#~ msgstr "Получено обновление платежа"
+
+#~ msgid "LiqPay Status"
+#~ msgstr "Статус LiqPay"
+
+#~ msgid "Login Attempts"
+#~ msgstr "Попытки входа"
+
+#~ msgid "User Logged Out"
+#~ msgstr "Пользователь вышел из системы"
+
+#, php-format
+#~ msgid "User ID: %d"
+#~ msgstr "ID пользователя: %d"
+
+#, php-format
+#~ msgid "Email: %s"
+#~ msgstr "Email: %s"
+
+#~ msgid "Active"
+#~ msgstr "Активный"
+
+#~ msgid "Expired"
+#~ msgstr "Истекший"
+
+#~ msgid "Unauthorized database download attempt"
+#~ msgstr "Попытка несанкционированной загрузки базы данных"
+
+#~ msgid "Database download attempt with no account sites"
+#~ msgstr "Попытка загрузки базы данных без учетных записей"
+
+#~ msgid "Database download attempt for inactive account"
+#~ msgstr "Попытка загрузки базы данных для неактивной учетной записи"
+
+#~ msgid "Unauthorized database download attempt for another database"
+#~ msgstr "Несанкционированная попытка загрузки другой базы данных"
+
+#~ msgid "Database download export started"
+#~ msgstr "Загрузка экспорта базы данных начата"
+
+#~ msgid "Database download export failed"
+#~ msgstr "Сбой при экспорте базы данных"
+
+#~ msgid "Database download decryption failed"
+#~ msgstr "Сбой при расшифровке загруженной базы данных"
+
+#~ msgid "Invalid database download attempt"
+#~ msgstr "Неудачная попытка загрузки базы данных"
+
+#~ msgid "Unauthorized repository download attempt"
+#~ msgstr "Несанкционированная попытка загрузки репозитория"
+
+#~ msgid "Repository download attempt with no account sites"
+#~ msgstr "Попытка загрузки репозитория без учетных записей"
+
+#~ msgid "Repository download attempt for inactive account"
+#~ msgstr "Попытка загрузки репозитория для неактивной учетной записи"
+
+#~ msgid "GitHub token not configured for repository download"
+#~ msgstr "Токен GitHub не настроен для загрузки репозитория"
+
+#~ msgid "Unauthorized repository download attempt for another repository"
+#~ msgstr ""
+#~ "Несанкционированная попытка загрузки репозитория для другого репозитория"
+
+#~ msgid "Repository download export started"
+#~ msgstr "Загрузка экспорта из репозитория начата"
+
+#~ msgid "Invalid repository download attempt"
+#~ msgstr "Неудачная попытка загрузки репозитория"
+
+#~ msgid "Invalid repository download data"
+#~ msgstr "Недопустимые данные загрузки репозитория"
+
+#~ msgid "Unauthorized website download attempt"
+#~ msgstr "Попытка несанкционированной загрузки с веб-сайта"
+
+#~ msgid "Website download attempt with no account sites"
+#~ msgstr "Попытка загрузки веб-сайта без учетной записи"
+
+#~ msgid "Unauthorized website download attempt for another website"
+#~ msgstr ""
+#~ "Несанкционированная попытка загрузки веб-сайта для другого веб-сайта"
+
+#~ msgid "Website download attempt for inactive account"
+#~ msgstr "Попытка загрузки веб-сайта для неактивной учетной записи"
+
+#~ msgid "Website download attempt on non-operate server"
+#~ msgstr "Попытка загрузки веб-сайта на неработающем сервере"
+
+#~ msgid "Website directory not found for download"
+#~ msgstr "Не найден каталог веб-сайта для загрузки"
+
+#~ msgid "Website download started"
+#~ msgstr "Загрузка веб-сайта началась"
+
+#~ msgid "Select account"
+#~ msgstr "Выбрать аккаунт"
+
+#~ msgid "Account not found"
+#~ msgstr "Аккаунт не найден"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Are you sure you want to permanently delete your profile?"
+#~ msgstr "Вы уверены, что хотите безвозвратно удалить свой аккаунт?"
+
+#~ msgid "We didn't get any response from Liqpay API"
+#~ msgstr "Мы не получили никакого ответа от LiqPay API"
+
+#~ msgid "uah"
+#~ msgstr "грн"
+
+#~ msgid "$"
+#~ msgstr "$"
+
+#~ msgid "€"
+#~ msgstr "€"
+
+#~ msgid "Error 404: Page not found"
+#~ msgstr "Ошибка 404: Страница не найдена"
+
+#~ msgid "Archives for"
+#~ msgstr "Архивы для"
+
+#~ msgid "You searched for"
+#~ msgstr "Вы искали"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "Home"
+#~ msgstr "Главная"
+
+#~ msgid "Please, install Advanced Custom Fields PRO version"
+#~ msgstr "Пожалуйста, установите PRO версию Advanced Custom Fields"
+
+#~ msgid "or"
+#~ msgstr "или"
+
+#~ msgid "Continue with Google"
+#~ msgstr "Продолжить с Google"
+
+#~ msgid "Account name and ID"
+#~ msgstr "Имя и идентификатор аккаунта"
+
+#~ msgid "Account expiration"
+#~ msgstr "Истечение срока действия аккаунта"
+
+#~ msgid "The account will be renewed until"
+#~ msgstr "Аккаунт будет продлен до"
+
+#~ msgid "Account price per year"
+#~ msgstr "Стоимость аккаунта в год"
+
+#~ msgid "Total price of all domains in the account"
+#~ msgstr "Общая стоимость всех доменов в аккаунте"
+
+#~ msgid "Total amount"
+#~ msgstr "Итого"
+
+#~ msgid "Renew for a year"
+#~ msgstr "Продлить на год"
+
+#~ msgid "First name"
+#~ msgstr "Имя"
+
+#~ msgid "Last name"
+#~ msgstr "Фамилия"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Enter your new Email"
+#~ msgstr "Введите свой новый Email"
+
+#~ msgid "This field is required"
+#~ msgstr "Это поле обязательно к заполнению"
+
+#~ msgid "Log ID"
+#~ msgstr "ID лога"
+
+#~ msgid "Edit Link"
+#~ msgstr "Изменить ссылку"
+
+#~ msgid "(new tab)"
+#~ msgstr "(yangi tab)"
+
+#~ msgid "Failed Login Attempts"
+#~ msgstr "Неуспешные попытки входа"
+
+#~ msgid "IP reset successfully."
+#~ msgstr "IP успешно сброшен."
+
+#~ msgid "IP Address"
+#~ msgstr "IP адрес"
+
+#~ msgid "Attempts"
+#~ msgstr "Попыток"
+
+#~ msgid "Details"
+#~ msgstr "Детали"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "Login"
+#~ msgstr "Логин"
+
+#~ msgid "Pin"
+#~ msgstr "Пин"
+
+#~ msgid "Session"
+#~ msgstr "Сессия"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "Reset"
+#~ msgstr "Сброс"
+
+#~ msgid "No login attempts found."
+#~ msgstr "Не найдено ни одной попытки входа в систему."
+
+#~ msgid "Enter your prompt here"
+#~ msgstr "Введите ваш промпт здесь"
+
+#~ msgid "Account price"
+#~ msgstr "Цена аккаунта"
+
+#~ msgid "Total price for all account domains"
+#~ msgstr "Общая стоимость для всех доменов в аккаунте"
+
+#~ msgid "Total price"
+#~ msgstr "Всего"
+
+#~ msgid "Old URL:"
+#~ msgstr "Старый URL-адрес:"
+
+#~ msgid "Code:"
+#~ msgstr "Код:"
+
+#~ msgid "Message"
+#~ msgstr "Сообщение"
+
+#~ msgid "SMS alpha name"
+#~ msgstr "SMS альфа имя"
+
+#~ msgid "Additional user options"
+#~ msgstr "Дополнительные параметры пользователя"
+
+#~ msgid "Registered with"
+#~ msgstr "Зарегистрирован с"
+
+#~ msgid "Confirmed Phone?"
+#~ msgstr "Подтвержден телефон?"
+
+#~ msgid "dd/mm/yyyy"
+#~ msgstr "дд/мм/гггг"
+
+#~ msgid "Planka login"
+#~ msgstr "Логин Planka"
+
+#~ msgid "Planka password"
+#~ msgstr "Пароль Planka"
+
+#~ msgid "Preferred frontend locale"
+#~ msgstr "Предпочтительная локаль интерфейса"
+
+#~ msgid "total"
+#~ msgstr "всего"
+
+#~ msgid "Renewal Date"
+#~ msgstr "Дата продления"
+
+#~ msgid "Days Remaining"
+#~ msgstr "Оставшиеся дни"
+
+#~ msgid "No accounts found."
+#~ msgstr "Аккаунты не найдены."
+
+#~ msgid "Total Annual Revenue"
+#~ msgstr "Общий годовой доход"
+
+#~ msgid "Earned This Year"
+#~ msgstr "Заработанное в этом году"
+
+#~ msgid "Projected This Year"
+#~ msgstr "Прогнозируется в этом году"
+
+#~ msgid "Earned"
+#~ msgstr "Заработано"
+
+#~ msgid "Projected"
+#~ msgstr "Прогнозируемый"
+
+#~ msgid "Revenue"
+#~ msgstr "Доход"
+
+#~ msgid "This Year`s Revenue Breakdown (UAH)"
+#~ msgstr "Распределение доходов в этом году (в гривнах)"
+
+#~ msgid "New Brief Submission"
+#~ msgstr "Новое краткое представление"
+
+#~ msgid "A new brief has been submitted with the following details:"
+#~ msgstr "Был представлен новый бриф со следующими деталями:"
+
+#~ msgid "New Payment Order created"
+#~ msgstr "Создан новый платеж"
+
+#~ msgid "Support form"
+#~ msgstr "Форма поддержки"
+
+#~ msgid "Topic"
+#~ msgstr "Тема"
+
+#~ msgid "Please use the following verification code"
+#~ msgstr "Пожалуйста, используйте следующий проверочный код"
+
+#~ msgid ""
+#~ "Never share this code with anyone. If you donʼt know what this email is "
+#~ "about, just ignore it."
+#~ msgstr ""
+#~ "Никому не сообщайте этот код. Если вы не знаете, о чем идет речь в этом "
+#~ "письме, просто проигнорируйте его."
+
+#~ msgid "Account information"
+#~ msgstr "Информация об аккаунте"
+
+#~ msgid "Account name and ID:"
+#~ msgstr "Имя и идентификатор учетной записи:"
+
+#~ msgid "Account status:"
+#~ msgstr "Состояние аккаунта:"
+
+#~ msgid "Account expiration:"
+#~ msgstr "Истечение срока действия аккаунта:"
+
+#~ msgid "Renew"
+#~ msgstr "Продлить"
+
+#~ msgid "Account price per year:"
+#~ msgstr "Стоимость аккаунта в год:"
+
+#~ msgid "Total price of all domains in the account:"
+#~ msgstr "Общая стоимость всех доменов в учетной записи:"
+
+#~ msgid "Account owner:"
+#~ msgstr "Владелец учетной записи:"
+
+#~ msgid "Invited users:"
+#~ msgstr "Приглашенные пользователи:"
+
+#~ msgid "No invited users"
+#~ msgstr "Приглашенных пользователей нет"
+
+#~ msgid "My domains"
+#~ msgstr "Мои домены"
+
+#~ msgid "Valid untill"
+#~ msgstr "Действителен до"
+
+#~ msgid "Domain price per year"
+#~ msgstr "Стоимость домена в год"
+
+#~ msgid "My mail boxes"
+#~ msgstr "Мои почтовые ящики"
+
+#~ msgid "Mail box"
+#~ msgstr "Почтовый ящик"
+
+#~ msgid "Authorisation"
+#~ msgstr "Авторизация"
+
+#~ msgid "My sites"
+#~ msgstr "Мои сайты"
+
+#~ msgid "Site URL"
+#~ msgstr "Адрес сайта"
+
+#~ msgid "Site main URL and subdomains"
+#~ msgstr "Основной адрес сайта и субдомены"
+
+#~ msgid "Databases"
+#~ msgstr "Базы данных"
+
+#~ msgid "Database"
+#~ msgstr "База данных"
+
+#~ msgid "Repositories"
+#~ msgstr "Репозитории"
+
+#~ msgid "Repository"
+#~ msgstr "Репозиторий"
+
+#~ msgid "Your account"
+#~ msgstr "Ваш аккаунт"
+
+#~ msgid "Shared account"
+#~ msgstr "Доступный аккаунт"
+
+#~ msgid "Your accounts"
+#~ msgstr "Ваши аккаунты"
+
+#~ msgid "My accounts"
+#~ msgstr "Мои аккаунты"
+
+#~ msgid "Shared accounts"
+#~ msgstr "Доступные аккаунты"
+
+#~ msgid "You do not have any accounts yet"
+#~ msgstr "У вас еще нет аккаунтов"
+
+#~ msgid "Tell me more about cookies"
+#~ msgstr "Расскажите мне больше о куках"
+
+#~ msgid "Log Out"
+#~ msgstr "Выйти"
+
+#~ msgid "Your Email"
+#~ msgstr "Ваш Email"
+
+#, php-format
+#~ msgid ""
+#~ "Your account will expire in %d day. Please renew your subscription to "
+#~ "avoid any interruptions in service."
+#~ msgid_plural ""
+#~ "Your account will expire in %d days. Please renew your subscription to "
+#~ "avoid any interruptions in service."
+#~ msgstr[0] ""
+#~ "Ваша учетная запись истечет через %d день. Пожалуйста, продлите "
+#~ "обслуживание, чтобы избежать перерывов в обслуживании."
+#~ msgstr[1] ""
+#~ "Ваша учетная запись истечет через %d дня. Пожалуйста, продлите "
+#~ "обслуживание, чтобы избежать перерывов в обслуживании."
+#~ msgstr[2] ""
+#~ "Ваша учетная запись истечет через %d дней. Пожалуйста, продлите "
+#~ "обслуживание, чтобы избежать перерывов в обслуживании."
+
+#~ msgid ""
+#~ "Your account service period has expired. Please renew your subscription "
+#~ "to restore access to all your resources."
+#~ msgstr ""
+#~ "Срок действия вашего аккаунта истёк. Пожалуйста, продлите обслуживание, "
+#~ "чтобы восстановить доступ ко всем вашим ресурсам."
+
+#~ msgid "Step"
+#~ msgstr "Шаг"
+
+#~ msgid "from"
+#~ msgstr "из"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Next"
+#~ msgstr "Дальше"
+
+#~ msgid "or you can use messengers below"
+#~ msgstr "или вы можете использовать мессенджеры ниже"
+
+#~ msgid "Planka"
+#~ msgstr "Планка"
+
+#~ msgid "Kanban project manager for all needs"
+#~ msgstr "Менеджер проектов Kanban для всех потребностей"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Confirm phone"
+#~ msgstr "Подтвердить телефон"
+
+#~ msgid "Edit profile"
+#~ msgstr "Редактировать профиль"
+
+#~ msgid "My payments"
+#~ msgstr "Мои платежи"
+
+#~ msgid "Payment date"
+#~ msgstr "Дата платежа"
+
+#~ msgid "You have no payments yet."
+#~ msgstr "У вас пока нет платежей."
+
+#~ msgid "Continue"
+#~ msgstr "Продолжить"
+
+#~ msgid "Account settings"
+#~ msgstr "Настройки аккаунта"
+
+#~ msgid "Total Accounts:"
+#~ msgstr "Общее аккаунтов:"
+
+#~ msgid "There are no domains in your account yet."
+#~ msgstr "В вашей учетной записи еще нет доменов."
+
+#~ msgid "There are no mail boxes in your account yet."
+#~ msgstr "В вашей учетной записи пока нет почтовых ящиков."
+
+#~ msgid "There are no sites in your account yet."
+#~ msgstr "В вашей учетной записи еще нет сайтов."
+
+#~ msgid "Payment successful"
+#~ msgstr "Оплата успешно произведена"
+
+#~ msgid ""
+#~ "We are checking your payment, please wait and dont close this popup "
+#~ "window..."
+#~ msgstr ""
+#~ "Мы проверяем ваш платеж, пожалуйста, подождите и не закрывайте это окно..."
+
+#~ msgid "Paused"
+#~ msgstr "Приостановлено"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgid "Enable HTML cache"
+#~ msgstr "Включить HTML кеширование"
+
+#~ msgid "Enable HTML page cache for anonymous users"
+#~ msgstr "Включить кэширование HTML-страниц для анонимных пользователей"
+
+#~ msgid "Enable minify"
+#~ msgstr "Включить минификацию"
+
+#~ msgid "Enable HTML minifier on frontend"
+#~ msgstr "Включить HTML-минификатор на фронтенде"
+
+#~ msgid "Email has been changed."
+#~ msgstr "Email успешно изменен."
+
+#~ msgid "Phone has been changed."
+#~ msgstr "Телефон был изменен."
+
+#~ msgid "Enter your new Phone"
+#~ msgstr "Введите новый телефон"
+
+#~ msgid "New Email"
+#~ msgstr "Новый Email"
+
+#~ msgid "New Phone"
+#~ msgstr "Новый Телефон"
+
+#~ msgid "Unauthorized database download attempt for another account"
+#~ msgstr ""
+#~ "Несанкционированная попытка загрузки базы данных для другой учетной записи"
+
+#~ msgid "Unauthorized repository download attempt for another account"
+#~ msgstr ""
+#~ "Несанкционированная попытка загрузки репозитория для другой учетной записи"
+
+#~ msgid "Unauthorized website download attempt for another account"
+#~ msgstr ""
+#~ "Несанкционированная попытка загрузки веб-сайта для другой учетной записи"
+
+#~ msgid "₴ (uah)"
+#~ msgstr "₴ (грн)"
+
+#~ msgid "UAH"
+#~ msgstr "грн"
+
+#~ msgid "Your Question"
+#~ msgstr "Ваш вопрос"
+
+#~ msgid "Describe your issue in detail"
+#~ msgstr "Подробно опишите свою проблему"
+
+#~ msgid "Inactive"
+#~ msgstr "Неактивный"
+
+#~ msgid "Suspended"
+#~ msgstr "Приостановлен"
+
+#~ msgid "MySQL Instance ID"
+#~ msgstr "Идентификатор экземпляра MySQL"
+
+#~ msgid "Enter MySQL instance ID"
+#~ msgstr "Введите ID экземпляра MySQL"
+
+#~ msgid "Successful login notification"
+#~ msgstr "Уведомление об успешном входе в систему"
+
+#~ msgid "Check my websites now"
+#~ msgstr "Проверьте мои сайты сейчас"
+
+#~ msgid "Successful registration"
+#~ msgstr "Регистрация прошла успешно"
+
+#~ msgid ""
+#~ "Customize the email content sent to users upon sign-in. You can use "
+#~ "placeholders like {username}, {email}, and {date_time} to personalize the "
+#~ "message."
+#~ msgstr ""
+#~ "Настройте содержание электронного письма, отправляемого пользователям при "
+#~ "входе в систему. Для персонализации сообщения можно использовать "
+#~ "заполнители, такие как {username}, {email} и {date_time}."
+
+#~ msgid ""
+#~ "Customize the email content sent to users upon sign-up. You can use "
+#~ "placeholders like {username}, {email}, and {date_time} to personalize the "
+#~ "message."
+#~ msgstr ""
+#~ "Настройте содержание электронного письма, отправляемого пользователям при "
+#~ "регистрации. Вы можете использовать заполнители, такие как {username}, "
+#~ "{email} и {date_time}, чтобы персонализировать сообщение."
+
+#~ msgid "Successful Login"
+#~ msgstr "Войти"
+
+#~ msgid "You have successfully logged into your account."
+#~ msgstr "Вы успешно вошли в свою учетную запись."
+
+#~ msgid "Successful Registration"
+#~ msgstr "Успешная регистрация"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully registered an account on our "
+#~ "portal."
+#~ msgstr ""
+#~ "Поздравляем! Вы успешно зарегистрировали учетную запись на нашем портале."
+
+#~ msgid ""
+#~ "You can now log in using your credentials and explore all the features we "
+#~ "offer."
+#~ msgstr ""
+#~ "Теперь вы можете войти в систему, используя свои учетные данные, и "
+#~ "изучить все предлагаемые нами возможности."
+
+#, php-format
+#~ msgid "%1$s %2$d"
+#~ msgstr "%1$s %2$d"
+
+#, php-format
+#~ msgid "%s ago"
+#~ msgstr "%s назад"
+
+#, php-format
+#~ msgid "%s from now"
+#~ msgstr "%s с этого момента"
+
+#~ msgid "Pages"
+#~ msgstr "Страницы"
+
+#~ msgid "&laquo; Previous"
+#~ msgstr "&laquo; Предыдущий"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "Следующий &raquo;"
+
+#~ msgid "&hellip;"
+#~ msgstr "&hellip;"
+
+#~ msgid "Google Cloud Console"
+#~ msgstr "Google Cloud Консоль"
+
+#~ msgid "Header"
+#~ msgstr "Шапка"
+
+#~ msgid "Header options updated"
+#~ msgstr "Параметры шапки обновлены"
+
+#~ msgid "Footer"
+#~ msgstr "Футер"
+
+#~ msgid "Other"
+#~ msgstr "Другое"
+
+#~ msgid "Other options updated"
+#~ msgstr "Прочие опции обновлены"
+
+#~ msgid "Pattern categories"
+#~ msgstr "Категории петтернов"
+
+#~ msgid "Pattern category"
+#~ msgstr "Категория паттерна"
+
+#~ msgid "Search categories"
+#~ msgstr "Искать категории"
+
+#~ msgid "All categories"
+#~ msgstr "Все категории"
+
+#~ msgid "Edit category"
+#~ msgstr "Редактировать категорию"
+
+#~ msgid "Update category"
+#~ msgstr "Обновить категорию"
+
+#~ msgid "Add new category"
+#~ msgstr "Добавить новую категорию"
+
+#~ msgid "New category name"
+#~ msgstr "Название новой категории"
+
+#~ msgid ""
+#~ "In this section, you can configure a custom SMTP server to send emails "
+#~ "from your website. You can specify the SMTP host, port, username, "
+#~ "password, and from name. Additionally, you can enable a secure SMTP "
+#~ "connection using SSL."
+#~ msgstr ""
+#~ "В этом разделе вы можете настроить пользовательский SMTP-сервер для "
+#~ "отправки писем с вашего веб-сайта. Вы можете указать SMTP-хост, порт, имя "
+#~ "пользователя, пароль и имя отправителя. Кроме того, вы можете включить "
+#~ "безопасное SMTP-соединение с использованием SSL."
+
+#~ msgid ""
+#~ "In this section, you can add custom HTML code to the header and footer of "
+#~ "your website. The custom code will be placed inside the header tag and "
+#~ "before the end of the body tag. You can use this feature to add custom "
+#~ "scripts, styles, meta tags, and other elements to your website."
+#~ msgstr ""
+#~ "В этом разделе вы можете добавить пользовательский HTML-код в верхний и "
+#~ "нижний колонтитулы вашего сайта. Пользовательский код будет помещен "
+#~ "внутри тега заголовка и перед концом тега body. Вы можете использовать "
+#~ "эту функцию для добавления пользовательских скриптов, стилей, метатегов и "
+#~ "других элементов на ваш сайт."
+
+#~ msgid ""
+#~ "In this section, you can enable or disable various options that affect "
+#~ "the functionality of your website. You can disable updates, customizer, "
+#~ "src set, default image sizes, core privacy tools, CYR3LAT "
+#~ "transliteration, DNS prefetch, Rest API, Emojis, Embeds, dashboard "
+#~ "widgets, admin top bar, admin email verification, comments, child media "
+#~ "deletion, HTML cache, minify, ACF, Gutenberg editor, and specify the "
+#~ "Google maps API key."
+#~ msgstr ""
+#~ "В этом разделе вы можете включить или отключить различные параметры, "
+#~ "которые влияют на функциональность вашего веб-сайта. Вы можете отключить "
+#~ "обновления, настройщик, набор src, размеры изображений по умолчанию, "
+#~ "основные инструменты конфиденциальности, транслитерацию CYR3LAT, "
+#~ "предварительную выборку DNS, Rest API, эмодзи, встраивание, виджеты "
+#~ "панели управления, верхнюю панель администратора, проверку адреса "
+#~ "электронной почты администратора, комментарии, удаление дочерних "
+#~ "медиафайлов, кэш HTML, минификацию, ACF, редактор Gutenberg и указать "
+#~ "ключ API Google Maps."
+
+#~ msgid "Patterns"
+#~ msgstr "Узоры"
+
+#~ msgid "Pattern"
+#~ msgstr "Шаблон"
+
+#~ msgid "Add item"
+#~ msgstr "Добавить элемент"
+
+#~ msgid "New item"
+#~ msgstr "Новый элемент"
+
+#~ msgid "View item"
+#~ msgstr "Смотреть элемент"
+
+#, php-format
+#~ msgid "Error generating post %d: %s"
+#~ msgstr "Ошибка при создании постов %d: %s"
+
+#, php-format
+#~ msgid "Successfully generated %d posts!"
+#~ msgstr "Успешно создано %d постов!"
+
+#~ msgid "Errors occurred:"
+#~ msgstr "Возникли ошибки:"
+
+#~ msgid "Generate Random Posts"
+#~ msgstr "Генерация случайных постов"
+
+#~ msgid "Number of posts to generate"
+#~ msgstr "Количество постов для генерации"
+
+#~ msgid "How many posts should be generated (max 100)"
+#~ msgstr "Сколько постов должно быть создано (не более 100)"
+
+#~ msgid "Paragraphs per post"
+#~ msgstr "Параграфы в одном посте"
+
+#~ msgid "How many paragraphs should be in each post (max 50)"
+#~ msgstr "Сколько абзацев должно быть в каждом посте (не более 50)"
+
+#~ msgid "Include featured image"
+#~ msgstr "Включение изображения из сообщения"
+
+#~ msgid "Generate and attach a random featured image for each post"
+#~ msgstr ""
+#~ "Генерируйте и прикрепляйте случайное изображение для каждого сообщения"
+
+#~ msgid "Main blocks"
+#~ msgstr "Основные блоки"
+
+#~ msgid "Logical blocks"
+#~ msgstr "Логические блоки"
+
+#~ msgid "First screen"
+#~ msgstr "Первый экран"
+
+#~ msgid "Second screen"
+#~ msgstr "Второй экран"
+
+#~ msgid "Block"
+#~ msgstr "Блок"
+
+#~ msgid "Block from"
+#~ msgstr "Блок из"
+
+#~ msgid "Disable customizer"
+#~ msgstr "Отключить кастомайзер"
+
+#~ msgid "Disable WordPress customizer"
+#~ msgstr "Отключить кастомайзер"
+
+#~ msgid "Disable src set"
+#~ msgstr "Отключить src set"
+
+#~ msgid "Disable src set for images"
+#~ msgstr "Отключить src set"
+
+#~ msgid "Remove default image sizes in WordPress"
+#~ msgstr "Отключить стандартные размеры изображений"
+
+#~ msgid "Disable core privacy tools"
+#~ msgstr "Отключить инструменты конфиденциальности"
+
+#~ msgid "Disable default WordPress core privacy tools"
+#~ msgstr "Отключить инструменты конфиденциальности"
+
+#~ msgid "Enable CYR3LAT"
+#~ msgstr "Активировать CYR3LAT"
+
+#~ msgid "Enable CYR3LAT transliteration"
+#~ msgstr "Активировать CYR3LAT"
+
+#~ msgid "Disable DNS prefetch"
+#~ msgstr "Скрыть DNS prefetch"
+
+#~ msgid "Disable DNS prefetch for external resources"
+#~ msgstr "Скрыть DNS prefetch"
+
+#~ msgid "Disable Rest API"
+#~ msgstr "Отключить Rest API"
+
+#~ msgid "Disable Rest API for anonymous users"
+#~ msgstr "Отключить Rest API для анонимных пользователей"
+
+#~ msgid "Disable Emojis"
+#~ msgstr "Отключить Emoji"
+
+#~ msgid "Disable Embeds"
+#~ msgstr "Отключить Embeds"
+
+#~ msgid "Disable default WordPress Embeds"
+#~ msgstr "Отключить Embeds"
+
+#~ msgid "Disable dashboard widgets"
+#~ msgstr "Скрыть стандартные виджеты консоли"
+
+#~ msgid "Disable default WordPress dashboard widgets"
+#~ msgstr "Скрыть стандартные виджеты консоли"
+
+#~ msgid "Hide admin top bar"
+#~ msgstr "Отключить панель администратора"
+
+#~ msgid "Hide admin top bar for all users on front-end"
+#~ msgstr ""
+#~ "Скрыть верхнюю панель администратора для всех пользователей на фронтенде"
+
+#~ msgid "Disable admin email verification"
+#~ msgstr "Отключить E-mail верификацию админов"
+
+#~ msgid "Disable default WordPress admin email verification"
+#~ msgstr "Отключить E-mail верификацию админов"
+
+#~ msgid "Disable comments"
+#~ msgstr "Отключить комментарии"
+
+#~ msgid "Disable comments on all posts and pages"
+#~ msgstr "Отключите комментарии для всех постов и страниц"
+
+#~ msgid "Delete child media"
+#~ msgstr "Удалять вложения"
+
+#~ msgid "Delete child media when parent post is deleted"
+#~ msgstr "Удаление дочерних медиа при удалении родительского поста"
+
+#~ msgid "Disable Gutenberg editor everywhere"
+#~ msgstr "Отключите редактор Gutenberg везде"
+
+#~ msgid "Disable Gutenberg editor for Blog"
+#~ msgstr "Отключите редактор Gutenberg для блога"
+
+#~ msgid "Parse all pages blocks as Gutenberg patterns"
+#~ msgstr "Парсить все блоки страниц как Gutenber паттерны"
+
+#~ msgid "Website under Maintenance"
+#~ msgstr "Веб-сайт на техническом обслуживании"
+
+#~ msgid ""
+#~ "We are performing scheduled maintenance. We will be back online shortly."
+#~ msgstr ""
+#~ "Мы проводим плановое обслуживание. Мы проводим плановое техническое "
+#~ "обслуживание. Мы вернемся онлайн в ближайшее время."
+
+#~ msgid "No pattern selected"
+#~ msgstr "Hech qanday naqsh tanlanmagan"
+
+#~ msgid "Google maps API key to integrate with Advanced Custom Fields"
+#~ msgstr ""
+#~ "Ключ API Google Maps для интеграции с расширенными пользовательскими "
+#~ "полями"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section, you can configure various options that do not fit into "
+#~ "other categories. You can disable updates for plugins and WordPress core, "
+#~ "enable HTML page cache for anonymous users, enable HTML minifier on the "
+#~ "frontend and hide Advanced Custom Fields from the Dashboard. "
+#~ "Additionally, you can specify the Google Maps API key to integrate with "
+#~ "Advanced Custom Fields."
+#~ msgstr ""
+#~ "В этом разделе вы можете настроить различные параметры, которые не "
+#~ "вписываются в другие категории. Вы можете отключить обновления для "
+#~ "плагинов и ядра WordPress, включить кэш HTML-страниц для анонимных "
+#~ "пользователей, включить HTML-минификатор на фронтенде и скрыть Advanced "
+#~ "Custom Fields из панели инструментов. Кроме того, вы можете указать ключ "
+#~ "API Google Maps для интеграции с Advanced Custom Fields."
+
+#~ msgid "Main"
+#~ msgstr "Главный"
+
+#~ msgid "System tweaks"
+#~ msgstr "Настройки системы"
+
+#~ msgid "Maintenance mode title"
+#~ msgstr "Режим технического обслуживания"
+
+#~ msgid "Maintenance mode text"
+#~ msgstr "Текст режима технического обслуживания"
+
+#~ msgid "Your password"
+#~ msgstr "Ваш пароль"
+
+#~ msgid "Website options"
+#~ msgstr "Настройки сайта"
+
+#~ msgid "Inline scripts and styles"
+#~ msgstr "Онлайновые скрипты и стили"
+
+#~ msgid "Host"
+#~ msgstr "Хост"
+
+#~ msgid "Relational"
+#~ msgstr "Реляционный"
+
+#~ msgid "Framework"
+#~ msgstr "Фреймворк"
+
+#~ msgid "User additional fields"
+#~ msgstr "Дополнительные поля пользователя"

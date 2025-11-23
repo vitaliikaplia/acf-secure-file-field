@@ -1,0 +1,2331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: acf-secure-file\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-23 18:16+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
+"Language-Team: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acf-secure-file-field.php:42 acf-secure-file-field.php:257
+#: acf-secure-file-field.php:258
+msgid "Settings"
+msgstr "Налаштування"
+
+#: acf-secure-file-field.php:52 acf-secure-file-field.php:54
+msgid "Secured Files"
+msgstr "Захищені файли"
+
+#: acf-secure-file-field.php:53
+msgid "Secured File"
+msgstr "Захищений файл"
+
+#: acf-secure-file-field.php:80
+msgid "Permission denied"
+msgstr "В доступі відмовлено"
+
+#: acf-secure-file-field.php:84
+msgid "No file uploaded"
+msgstr "Файл не завантажено"
+
+#: acf-secure-file-field.php:92
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "На жаль, цей тип файлу заборонений з міркувань безпеки."
+
+#: acf-secure-file-field.php:153
+msgid "Failed to create database record"
+msgstr "Не вдалося створити запис у базі даних"
+
+#: acf-secure-file-field.php:156
+msgid "Failed to move uploaded file"
+msgstr "Не вдалося перемістити завантажений файл"
+
+#: acf-secure-file-field.php:190
+msgid "You do not have permission to download this file."
+msgstr "Ви не маєте дозволу на завантаження цього файлу."
+
+#: acf-secure-file-field.php:190
+msgid "Access Denied"
+msgstr "Доступ обмежений"
+
+#: acf-secure-file-field.php:231
+msgid "File not found on server."
+msgstr "Файл не знайдено на сервері."
+
+#: acf-secure-file-field.php:231 acf-secure-file-field.php:234
+msgid "Error"
+msgstr "Помилка"
+
+#: acf-secure-file-field.php:234
+msgid "Invalid download link."
+msgstr "Невірне посилання для скачування."
+
+#: acf-secure-file-field.php:247
+msgid "Settings saved."
+msgstr "Налаштування збережені."
+
+#: acf-secure-file-field.php:286
+msgid "Download Access Control"
+msgstr "Контроль доступу завантажень"
+
+#: acf-secure-file-field.php:293
+msgid "Who can download files?"
+msgstr "Хто може завантажувати файли?"
+
+#: acf-secure-file-field.php:301
+msgid "Allowed Roles"
+msgstr "Дозволені ролі"
+
+#: acf-secure-file-field.php:309
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: acf-secure-file-field.php:316
+msgid "Upload Directory Name"
+msgstr "Назва каталогу для завантаження"
+
+#: acf-secure-file-field.php:324
+msgid "General plugin settings."
+msgstr "Загальні налаштування плагіна."
+
+#: acf-secure-file-field.php:335
+msgid ""
+"The directory name cannot be changed because secure files have already been "
+"uploaded."
+msgstr ""
+"Назву каталогу не можна змінити, оскільки захищені файли вже завантажено."
+
+#: acf-secure-file-field.php:339
+msgid ""
+"The name of the folder inside wp-content where files will be stored. Use "
+"lowercase letters, numbers, and hyphens only."
+msgstr ""
+"Назва папки всередині wp-content, де будуть зберігатися файли. "
+"Використовуйте тільки малі літери, цифри та дефіси."
+
+#: acf-secure-file-field.php:346
+msgid "Control who is allowed to download the secure files."
+msgstr "Контролюйте, хто має право завантажувати захищені файли."
+
+#: acf-secure-file-field.php:354
+msgid "Anyone with the link"
+msgstr "Будь-хто, хто має посилання"
+
+#: acf-secure-file-field.php:355
+msgid "Any logged-in user"
+msgstr "Будь-який зареєстрований користувач"
+
+#: acf-secure-file-field.php:356
+msgid "Users with specific roles"
+msgstr "Користувачі з певними ролями"
+
+#: acf-secure-file-field.php:375
+msgid ""
+"This is only active when \"Users with specific roles\" is selected above."
+msgstr ""
+"Ця опція активна тільки в тому випадку, якщо вище вибрано «Користувачі з "
+"певними ролями»."
+
+#: acf-secure-file-field.php:454
+msgid "File Type"
+msgstr "Тип файлу"
+
+#: acf-secure-file-field.php:455
+msgid "File Size"
+msgstr "Розмір Файлу"
+
+#: acf-secure-file-field.php:472
+msgid "File not found"
+msgstr "Файл не знайдено"
+
+#: acf-secure-file-field.php:501
+msgid "This file does not have a valid download link."
+msgstr "Цей файл не має дійсного посилання для завантаження."
+
+#: includes/class-acf-field-secure-file.php:8
+msgid "Secure File"
+msgstr "Безпечний файл"
+
+#: includes/class-acf-field-secure-file.php:46
+msgid "Download"
+msgstr "Завантажити"
+
+#: includes/class-acf-field-secure-file.php:50
+msgid "Remove"
+msgstr "Видалити"
+
+#: includes/class-acf-field-secure-file.php:57
+msgid "Select a file for secure upload"
+msgstr "Виберіть файл для безпечного завантаження"
+
+#~ msgid "Portal options"
+#~ msgstr "Налаштування порталу"
+
+#~ msgid "Portal"
+#~ msgstr "Портал"
+
+#~ msgid "Portal options updated"
+#~ msgstr "Налаштування порталу оновлено"
+
+#~ msgid "Update"
+#~ msgstr "Оновити"
+
+#~ msgid "Payment options"
+#~ msgstr "Налаштування платежів"
+
+#~ msgid "Options"
+#~ msgstr "Опції"
+
+#~ msgid "Payment options updated"
+#~ msgstr "Налаштування платежів оновлено"
+
+#~ msgid "IP blocked due to multiple failed attempts"
+#~ msgstr "IP заблоковано через кілька невдалих спроб"
+
+#~ msgid "Session information:"
+#~ msgstr "Інформація про сеанс:"
+
+#~ msgid "Your IP blocked. Try again later!"
+#~ msgstr "Ваш IP заблоковано. Спробуйте пізніше!"
+
+#~ msgid "Nonce verification failed during authorization confirmation"
+#~ msgstr ""
+#~ "Перевірка одноразового коду під час підтвердження авторизації не вдалася"
+
+#~ msgid "Required fields missing during authorization confirmation"
+#~ msgstr "Необхідні поля відсутні під час підтвердження авторизації"
+
+#~ msgid "Incorrect PIN code entered during authorization confirmation"
+#~ msgstr "Введено неправильний PIN-код під час підтвердження авторизації"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "Pin code is incorrect"
+#~ msgstr "Пін-код невірний"
+
+#~ msgid "Email and PIN code"
+#~ msgstr "Електронна пошта та PIN-код"
+
+#~ msgid "User signed in with Email and PIN code"
+#~ msgstr "Користувач увійшов за допомогою електронної пошти та PIN-коду"
+
+#~ msgid "Authentication type:"
+#~ msgstr "Тип автентифікації:"
+
+#~ msgid "New user registered with Email and PIN code"
+#~ msgstr ""
+#~ "Новий користувач зареєстрований за допомогою електронної пошти та PIN-коду"
+
+#~ msgid "WP-nonce error during authorization attempt"
+#~ msgstr "Помилка WP-nonce під час спроби авторизації"
+
+#~ msgid "WP-nonce error"
+#~ msgstr "Помилка WP-nonce"
+
+#~ msgid "Email length error during authorization attempt"
+#~ msgstr "Помилка довжини електронного листа під час спроби авторизації"
+
+#~ msgid "Email length error"
+#~ msgstr "Помилка довжини електронної пошти"
+
+#~ msgid "Email format error during authorization attempt"
+#~ msgstr "Помилка формату електронної адреси під час спроби авторизації"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Email format error"
+#~ msgstr "Помилка формату електронної пошти"
+
+#~ msgid "CAPTCHA not completed during authorization attempt"
+#~ msgstr "CAPTCHA не виконано під час спроби авторизації"
+
+#~ msgid "Please, complete the CAPTCHA"
+#~ msgstr "Будь ласка, заповніть CAPTCHA"
+
+#~ msgid "CAPTCHA verification failed during authorization attempt"
+#~ msgstr "Під час спроби авторизації не вдалося пройти перевірку CAPTCHA"
+
+#~ msgid "CAPTCHA verification failed. Please, try again."
+#~ msgstr "Перевірка CAPTCHA не вдалася. Будь ласка, спробуйте ще раз."
+
+#~ msgid "Enter verification code from Email"
+#~ msgstr "Введіть код підтвердження з Email"
+
+#~ msgid "Your verification code"
+#~ msgstr "Ваш код підтвердження"
+
+#~ msgid "Authorization attempt"
+#~ msgstr "Спроба авторизації"
+
+#~ msgid "Security check failed on brief form submission."
+#~ msgstr "Перевірка безпеки не пройшла при відправці брифу."
+
+#~ msgid "New brief form submission"
+#~ msgstr "Відправка нового брифу"
+
+#~ msgid "New brief form submission:"
+#~ msgstr "Відправка нового брифу:"
+
+#~ msgid "Email has been changed and confirmed."
+#~ msgstr "Електронна адреса була змінена та підтверджена."
+
+#~ msgid "Phone has been changed and confirmed."
+#~ msgstr "Номер телефону було змінено та підтверджено."
+
+#~ msgid "Payment verification"
+#~ msgstr "Перевірка оплати"
+
+#~ msgid "Account renewal"
+#~ msgstr "Пролонгація акаунту"
+
+#~ msgid "Your verification code is"
+#~ msgstr "Ваш код підтвердження"
+
+#~ msgid "Enter verification code from SMS"
+#~ msgstr "Введіть код підтвердження з SMS"
+
+#~ msgid "Phone Confirmation"
+#~ msgstr "Підтвердження телефону"
+
+#~ msgid "Nonce verification failed during checkout renew"
+#~ msgstr "Не вдалося перевірити nonce під час пролонгації акаунту"
+
+#~ msgid "Payment for account renewal"
+#~ msgstr "Оплата за пролонгацію акаунту"
+
+#~ msgid "until"
+#~ msgstr "до"
+
+#~ msgid "Payment for account renewal until"
+#~ msgstr "Оплата за пролонгацію акаунту до"
+
+#~ msgid "New payment order"
+#~ msgstr "Новий платіж"
+
+#~ msgid "Payment title"
+#~ msgstr "Назва платежу"
+
+#~ msgid "Client"
+#~ msgstr "Клієнт"
+
+#~ msgid "Account"
+#~ msgstr "Акаунт"
+
+#~ msgid "Session information"
+#~ msgstr "Інформація про сеанс"
+
+#~ msgid "Edit Email"
+#~ msgstr "Редагувати Email"
+
+#~ msgid "Edit Phone"
+#~ msgstr "Редагувати Телефон"
+
+#~ msgid "Please, enter an email."
+#~ msgstr "Будь ласка введіть Email."
+
+#~ msgid "Please, enter a valid email."
+#~ msgstr "Будь ласка, введіть дійсний Email."
+
+#~ msgid "This is the same email as the old one."
+#~ msgstr "Це той самий Email, що і попередній."
+
+#~ msgid "This email is already taken."
+#~ msgstr "Ця електронна адреса вже зайнята."
+
+#~ msgid "Please, enter a phone."
+#~ msgstr "Будь ласка, введіть телефон."
+
+#~ msgid "Please, enter a valid phone."
+#~ msgstr "Будь ласка, введіть дійсний телефон."
+
+#~ msgid "This is the same phone as the old one."
+#~ msgstr "Це той самий телефон, що й попередній."
+
+#~ msgid "This phone is already in use."
+#~ msgstr "Цей телефон вже використовується."
+
+#~ msgid "Your phone number updated successfully."
+#~ msgstr "Ваш номер телефону успішно оновлено."
+
+#~ msgid "Google One Tap"
+#~ msgstr "Google Одне натискання"
+
+#~ msgid "User signed in with Google One Tap"
+#~ msgstr "Користувач увійшов за допомогою Google One Tap"
+
+#~ msgid "Your account is not active. Data download is not available."
+#~ msgstr "Ваш обліковий запис неактивний. Завантаження даних недоступне."
+
+#~ msgid "Delete Profile"
+#~ msgstr "Видалити профіль"
+
+#~ msgid "He-he-he, my friend, nope!"
+#~ msgstr "Хе-хе-хе, друже мій, ні!"
+
+#~ msgid "Account deletion"
+#~ msgstr "Видалення облікового запису"
+
+#~ msgid "Account deletion code sent to user email: "
+#~ msgstr ""
+#~ "Код для видалення облікового запису надіслано на електронну адресу "
+#~ "користувача: "
+
+#~ msgid "Code: "
+#~ msgstr "Код.: "
+
+#~ msgid ""
+#~ "Warning! To delete your account enter verification code from your Email."
+#~ msgstr ""
+#~ "Увага! Щоб видалити обліковий запис, введіть код підтвердження з вашого "
+#~ "Email."
+
+#~ msgid "WP-nonce error during support_form attempt"
+#~ msgstr "Помилка WP-nonce під час спроби support_form"
+
+#~ msgid "topic length error during support_form attempt"
+#~ msgstr "Помилка довжини теми під час спроби support_form"
+
+#~ msgid "topic length error"
+#~ msgstr "помилка довжини теми"
+
+#~ msgid "message length error during support_form attempt"
+#~ msgstr "Помилка довжини повідомлення під час спроби support_form"
+
+#~ msgid "message length error"
+#~ msgstr "помилка довжини повідомлення"
+
+#~ msgid "Support form submit"
+#~ msgstr "Форма підтримки"
+
+#~ msgid "Topic:"
+#~ msgstr "Тема:"
+
+#~ msgid "Message:"
+#~ msgstr "Повідомлення:"
+
+#~ msgid "User delete nonce failed."
+#~ msgstr "Видалення користувача не вдалося."
+
+#~ msgid "User delete secret decryption failed."
+#~ msgstr "Не вдалося розшифрувати секрет при видаленні користувача."
+
+#~ msgid "User provided incorrect pin code for account deletion. Provided: "
+#~ msgstr ""
+#~ "Користувач ввів неправильний PIN-код для видалення облікового запису. "
+#~ "Надано: "
+
+#~ msgid "User deleted account. User ID: "
+#~ msgstr "Користувач видалив обліковий запис. Ідентифікатор користувача: "
+
+#~ msgid "Email: "
+#~ msgstr "Email: "
+
+#~ msgid "Button Type"
+#~ msgstr "Тип кнопки"
+
+#~ msgid "Button Style"
+#~ msgstr "Стиль кнопки"
+
+#~ msgid "- Select Style -"
+#~ msgstr "- Оберіть Стиль -"
+
+#~ msgid "Icon"
+#~ msgstr "Іконка"
+
+#~ msgid "- No Icon -"
+#~ msgstr "- Без іконки -"
+
+#~ msgid "Icon Position"
+#~ msgstr "Розташування іконки"
+
+#~ msgid "Left"
+#~ msgstr "Зліва"
+
+#~ msgid "Right"
+#~ msgstr "Зправа"
+
+#~ msgid "Icon Select"
+#~ msgstr "Вибір іконки"
+
+#~ msgid "- Select Icon -"
+#~ msgstr "- Виберіть Іконку -"
+
+#~ msgid "Nav Menu"
+#~ msgstr "Навігаційне меню"
+
+#~ msgid "Return Value"
+#~ msgstr "Значення, що повертається"
+
+#~ msgid "Specify the returned value on front end"
+#~ msgstr "Вкажіть значення, що повертається"
+
+#~ msgid "Nav Menu Object"
+#~ msgstr "Об'єкт меню"
+
+#~ msgid "Nav Menu HTML"
+#~ msgstr "HTML меню"
+
+#~ msgid "Nav Menu ID"
+#~ msgstr "ID меню"
+
+#~ msgid "All"
+#~ msgstr "Усі"
+
+#~ msgid "Menu Container"
+#~ msgstr "Контейнер меню"
+
+#~ msgid "What to wrap the Menu's ul with (when returning HTML only)"
+#~ msgstr "Обгортка для меню"
+
+#~ msgid "Allow Null?"
+#~ msgstr "Дозволити порожнє значення?"
+
+#~ msgid "Yes"
+#~ msgstr "Так"
+
+#~ msgid "No"
+#~ msgstr "Ні"
+
+#~ msgid "None"
+#~ msgstr "Немає"
+
+#~ msgid "Choose one"
+#~ msgstr "Виберіть"
+
+#~ msgid "GitHub Repository"
+#~ msgstr "Github репозиторій"
+
+#~ msgid "Select multiple values?"
+#~ msgstr "Вибрати кілька значень?"
+
+#~ msgid "Allow null?"
+#~ msgstr "Дозволити порожнє знаечння?"
+
+#~ msgid "Select repository"
+#~ msgstr "Виберіть репозиторій"
+
+#~ msgid "Ukraine Hosting Databases"
+#~ msgstr "Бази даних хостингу Україна"
+
+#~ msgid "Select database"
+#~ msgstr "Виберіть базу даних"
+
+#~ msgid "Ukraine Hosting Domains"
+#~ msgstr "Домени Хостингу Україна"
+
+#~ msgid "Select domain"
+#~ msgstr "Виберіть домен"
+
+#~ msgid "Ukraine Hosting Mail Domains"
+#~ msgstr "Поштові домени Хостингу Україна"
+
+#~ msgid "Select mail domain"
+#~ msgstr "Виберіть поштовий домен"
+
+#~ msgid "Ukraine Hosting Sites"
+#~ msgstr "Сайти Хостингу Україна"
+
+#~ msgid "Accounts"
+#~ msgstr "Акаунти"
+
+#~ msgid "Add account"
+#~ msgstr "Додати акаунт"
+
+#~ msgid "Add new account"
+#~ msgstr "Додати новий акаунт"
+
+#~ msgid "Edit"
+#~ msgstr "Редагувати"
+
+#~ msgid "Edit account"
+#~ msgstr "Редагувати акаунт"
+
+#~ msgid "New account"
+#~ msgstr "Новий акаунт"
+
+#~ msgid "View"
+#~ msgstr "Переглянути"
+
+#~ msgid "View account"
+#~ msgstr "Переглянути акаунт"
+
+#~ msgid "Search for accounts"
+#~ msgstr "Пошук акаунтів"
+
+#~ msgid "No accounts found"
+#~ msgstr "Не знайдено жодних акаунтів"
+
+#~ msgid "No accounts found in trash"
+#~ msgstr "У кошику не знайдено жодних акаунтів"
+
+#~ msgid "Parent account"
+#~ msgstr "Батьківський акаунт"
+
+#~ msgid "Main image"
+#~ msgstr "Головне зображення"
+
+#~ msgid "Set main image"
+#~ msgstr "Встановити головне зображення"
+
+#~ msgid "Remove main image"
+#~ msgstr "Видалити головне зображення"
+
+#~ msgid "Use as main image"
+#~ msgstr "Використовувати як головне зображення"
+
+#~ msgid "Payments"
+#~ msgstr "Платежі"
+
+#~ msgid "Payment"
+#~ msgstr "Оплата"
+
+#~ msgid "Add"
+#~ msgstr "Додати"
+
+#~ msgid "New"
+#~ msgstr "Нове"
+
+#~ msgid "Search for payments"
+#~ msgstr "Пошук платежів"
+
+#~ msgid "No payments found"
+#~ msgstr "Платежі не знайдено"
+
+#~ msgid "No payments found in trash"
+#~ msgstr "Немає видалених платежів"
+
+#~ msgid "Parent"
+#~ msgstr "Батько"
+
+#~ msgid "Mail log"
+#~ msgstr "Email логування"
+
+#~ msgid "Search for mail logs"
+#~ msgstr "Пошук поштових журналів"
+
+#~ msgid "No mail logs found"
+#~ msgstr "Жодних поштових журналів не знайдено"
+
+#~ msgid "No mail logs found in trash"
+#~ msgstr "Жодних поштових журналів не знайдено в кошику"
+
+#~ msgid "SMS log"
+#~ msgstr "SMS логування"
+
+#~ msgid "Search for SMS logs"
+#~ msgstr "Пошук SMS логів"
+
+#~ msgid "No SMS logs found"
+#~ msgstr "Жодних SMS логів не знайдено"
+
+#~ msgid "No SMS logs found in trash"
+#~ msgstr "Жодних SMS логів не знайдено в кошику"
+
+#~ msgid "Redirect rules"
+#~ msgstr "Правила перенаправлення"
+
+#~ msgid "Redirect rule"
+#~ msgstr "Правило перенаправлення"
+
+#~ msgid "Add redirect rule"
+#~ msgstr "Додати правило перенаправлення"
+
+#~ msgid "Add new redirect rule"
+#~ msgstr "Додати нове правило перенаправлення"
+
+#~ msgid "Edit redirect rule"
+#~ msgstr "Редагування правила перенаправлення"
+
+#~ msgid "New redirect rule"
+#~ msgstr "Нове правило перенаправлення"
+
+#~ msgid "View redirect rule"
+#~ msgstr "Перегляд правила перенаправлення"
+
+#~ msgid "Search for redirect rules"
+#~ msgstr "Пошук правил перенаправлено"
+
+#~ msgid "No redirect rules found"
+#~ msgstr "Жодних правил перенаправлень не знайдено"
+
+#~ msgid "No redirect rules found in trash"
+#~ msgstr "Жодних правил перенаправлень не знайдено в кошику"
+
+#~ msgid "Parent redirect rule"
+#~ msgstr "Батьківське правило перенаправлення"
+
+#~ msgid "Domain zone"
+#~ msgstr "Зона домену"
+
+#~ msgid "Price per year"
+#~ msgstr "Ціна домену на рік"
+
+#~ msgid "Account owner"
+#~ msgstr "Власник акаунту"
+
+#~ msgid "Members"
+#~ msgstr "Учасники"
+
+#~ msgid "Expiration date"
+#~ msgstr "Дійсний до"
+
+#~ msgid "Price"
+#~ msgstr "Ціна"
+
+#~ msgid "Translate"
+#~ msgstr "Переклад"
+
+#~ msgid "Generate"
+#~ msgstr "Генерувати"
+
+#~ msgid "Powered by"
+#~ msgstr "Працює на"
+
+#~ msgid "Invalid mail log ID"
+#~ msgstr "Невірний ідентифікатор журналу пошти"
+
+#~ msgid "Email log information"
+#~ msgstr "Інформація Email журналу"
+
+#~ msgid "Email preview"
+#~ msgstr "Попередній перегляд листа"
+
+#~ msgid "Recipient"
+#~ msgstr "Одержувач"
+
+#~ msgid "Notifications"
+#~ msgstr "Сповіщення"
+
+#~ msgid "Configure notifications settings"
+#~ msgstr "Налаштування сповіщень"
+
+#~ msgid ""
+#~ "In this section, you can configure the Email/SMS/Telegram notifications "
+#~ "for different events."
+#~ msgstr ""
+#~ "У цьому розділі ви можете налаштувати сповіщення Email/SMS/Telegram для "
+#~ "різних подій."
+
+#~ msgid "Sign-in notifications"
+#~ msgstr "Повідомлення про вхід"
+
+#~ msgid "Enable"
+#~ msgstr "Увімкнути"
+
+#~ msgid "Enable email notification to users upon sign-in"
+#~ msgstr ""
+#~ "Увімкнути повідомлення користувачів електронною поштою після входу в "
+#~ "систему"
+
+#~ msgid "Subject"
+#~ msgstr "Тема"
+
+#~ msgid "Email content"
+#~ msgstr "Вміст повідомлення"
+
+#~ msgid "Enable Telegram notification to admin upon user sign-in"
+#~ msgstr ""
+#~ "Увімкнути повідомлення Telegram адміністратору при вході користувача"
+
+#~ msgid "Sign-up notifications"
+#~ msgstr "Повідомлення про реєстрацію"
+
+#~ msgid "Enable email notification to users upon sign-up"
+#~ msgstr ""
+#~ "Увімкнути повідомлення користувачів електронною поштою після реєстрації"
+
+#~ msgid "Enable Telegram notification to admin upon user sign-up"
+#~ msgstr ""
+#~ "Увімкнути повідомлення Telegram адміністратору при реєстрації користувача"
+
+#~ msgid "Images"
+#~ msgstr "Зображення"
+
+#~ msgid "Resize and optimize media while upload"
+#~ msgstr "Увімкнути зміну розміру медіа під час завантаження"
+
+#~ msgid ""
+#~ "In this section, you can enable resizing and optimization of images while "
+#~ "uploading them to the media library. You can specify the formats that "
+#~ "will be resized, set the width and height of the resized images, and "
+#~ "adjust the quality of the resized images. Additionally, you can enable "
+#~ "the conversion of images to the WEBP format, which is a modern image "
+#~ "format that provides better compression and quality compared to other "
+#~ "formats."
+#~ msgstr ""
+#~ "У цьому розділі ви можете ввімкнути зміну розміру та оптимізацію "
+#~ "зображень під час завантаження їх до медіатеки. Ви можете вказати "
+#~ "формати, які буде змінено, встановити ширину і висоту змінених зображень, "
+#~ "а також налаштувати якість змінених зображень. Крім того, ви можете "
+#~ "увімкнути конвертацію зображень у формат WEBP, який є сучасним форматом "
+#~ "зображень, що забезпечує краще стиснення та якість порівняно з іншими "
+#~ "форматами."
+
+#~ msgid "Resizing at upload"
+#~ msgstr "Стиснення під час завантаження"
+
+#~ msgid "Enable resizing media while upload"
+#~ msgstr "Увімкнути зміну розміру медіа під час завантаження"
+
+#~ msgid "Formats"
+#~ msgstr "Формати"
+
+#~ msgid "Resize at upload formats"
+#~ msgstr "Формати змінюваних зображень під час завантаження"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Resize upload width"
+#~ msgstr "Максимальна ширина завантаженого зображення"
+
+#~ msgid "Height"
+#~ msgstr "Висота"
+
+#~ msgid "Resize upload height"
+#~ msgstr "Максимальна висота завантаженого зображення"
+
+#~ msgid "Quality"
+#~ msgstr "Якість"
+
+#~ msgid "Resize upload quality"
+#~ msgstr "Максимальна якість для ресайзу"
+
+#~ msgid "WEBP convert"
+#~ msgstr "Конвертація WEBP"
+
+#~ msgid "Enable WEBP convert"
+#~ msgstr "Увімкнути перетворення WEBP"
+
+#~ msgid "Webp convert quality"
+#~ msgstr "Якість конвертування Webp"
+
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "Configure custom SMTP server"
+#~ msgstr "Налаштувати власний сервер SMTP"
+
+#~ msgid "Enable custom SMTP server"
+#~ msgstr "Увімкнути власний сервер SMTP"
+
+#~ msgid "SMTP host"
+#~ msgstr "SMTP хост"
+
+#~ msgid "SMTP port"
+#~ msgstr "SMTP порт"
+
+#~ msgid "SMTP username"
+#~ msgstr "SMTP користувач"
+
+#~ msgid "SMTP password"
+#~ msgstr "SMTP пароль"
+
+#~ msgid "SMTP from name"
+#~ msgstr "SMTP імʼя користувача"
+
+#~ msgid "Secure SMTP connection"
+#~ msgstr "Безпечне з’єднання SMTP"
+
+#~ msgid "Use SSL for SMTP connection"
+#~ msgstr "Використовувати безпечне з’єднання SMTP"
+
+#~ msgid "Custom code"
+#~ msgstr "Власний код"
+
+#~ msgid "Custom HTML code for header and footer"
+#~ msgstr "Спеціальний HTML-код для верхнього та нижнього колонтитулів"
+
+#~ msgid "Header custom code"
+#~ msgstr "Код в шапку"
+
+#~ msgid "The custom code will be placed inside the header tag"
+#~ msgstr "Кастомний код буде розміщено всередині тегу header"
+
+#~ msgid "After &#x3C;body&#x3E; custom code"
+#~ msgstr "Код після &#x3C;body&#x3E;"
+
+#~ msgid "The special code will be placed after the start of the body tag"
+#~ msgstr "Спеціальний код буде розміщено після початку тегу body"
+
+#~ msgid "Footer custom code"
+#~ msgstr "Код в підвал"
+
+#~ msgid "The special code will be placed before the end of the body tag"
+#~ msgstr "Спеціальний код буде розміщено перед кінцем тегу body"
+
+#~ msgid "Maintenance"
+#~ msgstr "Технічне обслуговування"
+
+#~ msgid "Maintenance mode for anonymous users"
+#~ msgstr "Режим обслуговування для анонімних користувачів"
+
+#~ msgid ""
+#~ "In this section, you can enable maintenance mode for anonymous users, "
+#~ "customize the title and text that will be displayed on the maintenance "
+#~ "page."
+#~ msgstr ""
+#~ "У цьому розділі ви можете ввімкнути режим обслуговування для анонімних "
+#~ "користувачів, налаштувати заголовок і текст, який буде відображатися на "
+#~ "сторінці обслуговування."
+
+#~ msgid "Enable maintenance mode for anonymous users"
+#~ msgstr "Режим обслуговування для анонімних користувачів"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Maintenance mode title for anonymous users"
+#~ msgstr "Заголовок режиму обслуговування для анонімних користувачів"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Maintenance mode text for anonymous users"
+#~ msgstr "Текст режиму обслуговування для анонімних користувачів"
+
+#~ msgid "Integrations"
+#~ msgstr "Інтеграції"
+
+#~ msgid "Integrations with third-party services options"
+#~ msgstr "Інтеграція зі сторонніми сервісами"
+
+#~ msgid ""
+#~ "In this section, you can configure integrations with various third-party "
+#~ "services by providing the necessary API keys and tokens."
+#~ msgstr ""
+#~ "У цьому розділі ви можете налаштувати інтеграцію з різними сторонніми "
+#~ "сервісами, вказавши необхідні API-ключі та токени."
+
+#~ msgid "Hosting Ukraine"
+#~ msgstr "Хостинг Україна"
+
+#~ msgid "Hosting Ukraine API Token"
+#~ msgstr "API Токен Хостингу Україна"
+
+#~ msgid ""
+#~ "Enter your Hosting Ukraine API token to enable integration with their "
+#~ "services and features."
+#~ msgstr ""
+#~ "Введіть свій API токен від Хостингу Україна, щоб увімкнути інтеграцію з "
+#~ "їх послугами та функціями."
+
+#~ msgid "Hosting Ukraine Account ID"
+#~ msgstr "Ідентифікатор облікового запису Хостингу Україна"
+
+#~ msgid ""
+#~ "Enter your Hosting Ukraine account ID to enable integration with their "
+#~ "services and features."
+#~ msgstr ""
+#~ "Введіть свій ідентифікатор облікового запису Хостингу Україна, щоб "
+#~ "увімкнути інтеграцію з їх послугами та функціями."
+
+#~ msgid "Hosting Ukraine Account Name"
+#~ msgstr "Імʼя облікового запису Хостингу Україна"
+
+#~ msgid ""
+#~ "Enter your Hosting Ukraine account Name to enable integration with their "
+#~ "services and features."
+#~ msgstr ""
+#~ "Введіть своє Імʼя облікового запису Хостингу Україна, щоб увімкнути "
+#~ "інтеграцію з їх послугами та функціями."
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
+
+#~ msgid "GitHub Access Token"
+#~ msgstr "Токен доступу до GitHub"
+
+#~ msgid ""
+#~ "Enter your GitHub access token to enable integration with GitHub services "
+#~ "and features."
+#~ msgstr ""
+#~ "Введіть свій токен доступу до GitHub, щоб увімкнути інтеграцію з "
+#~ "сервісами та функціями GitHub."
+
+#~ msgid "Telegram Bot"
+#~ msgstr "Telegram-бот"
+
+#~ msgid "Telegram Bot Token"
+#~ msgstr "Токен Telegram-бота"
+
+#~ msgid "Telegram Bot Chat ID"
+#~ msgstr "Ідентифікатор чату Telegram-бота"
+
+#~ msgid "Telegram Bot Chat Thread ID"
+#~ msgstr "Ідентифікатор теми чату Telegram-бота"
+
+#~ msgid "Google OAuth"
+#~ msgstr "Google OAuth"
+
+#~ msgid "Google OAuth Client Secret"
+#~ msgstr "Секрет клієнта Google OAuth"
+
+#~ msgid ""
+#~ "Google OAuth Client Secret to integrate with Google authorization services"
+#~ msgstr ""
+#~ "Секрет клієнта Google OAuth для інтеграції зі службами авторизації Google"
+
+#~ msgid "link"
+#~ msgstr "посилання"
+
+#~ msgid "LiqPay"
+#~ msgstr "LiqPay"
+
+#~ msgid "LiqPay public key"
+#~ msgstr "Публічний ключ LiqPay"
+
+#~ msgid "LiqPay public key to integrate with LiqPay services"
+#~ msgstr "Публічний ключ для інтеграції з сервісами LiqPay"
+
+#~ msgid "LiqPay private key"
+#~ msgstr "Приватний ключ LiqPay"
+
+#~ msgid "LiqPay private key to integrate with LiqPay services"
+#~ msgstr "Приватний ключ для інтеграції з сервісами LiqPay"
+
+#~ msgid "MonoBank"
+#~ msgstr "MonoBank"
+
+#~ msgid "MonoBank token"
+#~ msgstr "Токен MonoBank"
+
+#~ msgid "MonoBank token to integrate with MonoBank services"
+#~ msgstr "Токен MonoBank для інтеграції з платіжним сервісом"
+
+#~ msgid "Cloudflare"
+#~ msgstr "Cloudflare"
+
+#~ msgid "Cloudflare Turnstile Site Key"
+#~ msgstr "Ключ доступу до Cloudflare Turnstile"
+
+#~ msgid ""
+#~ "Cloudflare Turnstile Site Key to integrate with Cloudflare Turnstile "
+#~ "service"
+#~ msgstr ""
+#~ "Ключ для інтеграції з сервісом Cloudflare Turnstile Site Key для "
+#~ "інтеграції з Cloudflare Turnstile"
+
+#~ msgid "Cloudflare Turnstile Secret Key"
+#~ msgstr "Секретний ключ Cloudflare Turnstile"
+
+#~ msgid ""
+#~ "Cloudflare Turnstile Secret Key to integrate with Cloudflare Turnstile "
+#~ "service"
+#~ msgstr ""
+#~ "Секретний ключ Cloudflare Turnstile для інтеграції з сервісом Cloudflare "
+#~ "Turnstile"
+
+#~ msgid "SMS Services"
+#~ msgstr "SMS-сервіси"
+
+#~ msgid "SMS-Fly"
+#~ msgstr "SMS-Fly"
+
+#~ msgid "Turbo SMS"
+#~ msgstr "Turbo SMS"
+
+#~ msgid "SMS service provider"
+#~ msgstr "Провайдер послуг SMS"
+
+#~ msgid "Select SMS service provider to integrate with SMS service"
+#~ msgstr "Виберіть постачальника послуг SMS для інтеграції з послугою SMS"
+
+#~ msgid "SMS-Fly username"
+#~ msgstr "SMS-Fly користувач"
+
+#~ msgid "SMS-Fly login to integrate with SMS-Fly service"
+#~ msgstr "SMS-Fly логін для інтеграції з сервісом"
+
+#~ msgid "SMS-Fly password"
+#~ msgstr "SMS-Fly пароль"
+
+#~ msgid "SMS-Fly password to integrate with SMS-Fly service"
+#~ msgstr "SMS-Fly пароль для інтеграції з сервісом"
+
+#~ msgid "SMS-Fly alpha name"
+#~ msgstr "SMS-Fly альфа-імʼя"
+
+#~ msgid "SMS-Fly alpha name what will be used as SMS sender"
+#~ msgstr ""
+#~ "SMS-Fly альфа-імʼя, яке буде використовуватися у якості відправника SMS"
+
+#~ msgid "Turbo SMS token"
+#~ msgstr "Turbo-SMS токен"
+
+#~ msgid "Turbo SMS token to integrate with Turbo SMS service"
+#~ msgstr "Токен Turbo SMS для інтеграції з сервісом"
+
+#~ msgid "Turbo SMS alpha name"
+#~ msgstr "Turbo SMS альфа-імʼя"
+
+#~ msgid "Turbo SMS alpha name what will be used as SMS sender"
+#~ msgstr ""
+#~ "Turbo SMS альфа-імʼя, яке буде використовуватися у якості відправника SMS"
+
+#~ msgid "HTTP Authentication API"
+#~ msgstr "API HTTP аутентифікації"
+
+#~ msgid "HTTP Authentication API Token"
+#~ msgstr "Токен API для HTTP аутентифікації"
+
+#~ msgid ""
+#~ "API token from deployments service to get correct http logins and "
+#~ "passwords"
+#~ msgstr ""
+#~ "API-токен від служби розгортання для отримання правильних HTTP логінів та "
+#~ "паролів"
+
+#~ msgid "AI Services"
+#~ msgstr "ШІ-сервіси"
+
+#~ msgid "OpenAI"
+#~ msgstr "OpenAI"
+
+#~ msgid "Claude"
+#~ msgstr "Claude"
+
+#~ msgid "Gemini"
+#~ msgstr "Gemini"
+
+#~ msgid "AI Engine"
+#~ msgstr "Рушій штучного інтелекту"
+
+#~ msgid "Select AI engine for content generation"
+#~ msgstr "Виберіть ШІ рушій для генерації контенту"
+
+#~ msgid "Open AI API key"
+#~ msgstr "API ключ OpenAI"
+
+#~ msgid "Open AI API key to integrate with Open AI service"
+#~ msgstr "API ключ OpenAI для інтеграції"
+
+#~ msgid "Open AI API model"
+#~ msgstr "OpenAI модель"
+
+#~ msgid "Select Open AI API model to use"
+#~ msgstr "Виберіть модель OpenAI API для використання"
+
+#~ msgid "tokens"
+#~ msgstr "токени"
+
+#~ msgid "Open AI max tokens"
+#~ msgstr "Токени OpenAI"
+
+#~ msgid "Open AI max tokens to use"
+#~ msgstr "Максимальна кількість токенів OpenAI"
+
+#~ msgid "Claude API key"
+#~ msgstr "Ключ API Claude"
+
+#~ msgid "Claude API key to integrate with Claude service"
+#~ msgstr "Ключ API Claude для інтеграції з сервісом Claude"
+
+#~ msgid "Claude API model"
+#~ msgstr "Модель API Claude"
+
+#~ msgid "Select Claude API model to use"
+#~ msgstr "Виберіть модель API Claude для використання"
+
+#~ msgid "Claude max tokens"
+#~ msgstr "Максимальна кількість токенів Claude"
+
+#~ msgid "Claude max tokens to use"
+#~ msgstr "Максимальна кількість токенів Claude для використання"
+
+#~ msgid "Gemini API key"
+#~ msgstr "Ключ API Gemini"
+
+#~ msgid "Gemini API key to integrate with Gemini service"
+#~ msgstr "Ключ API Gemini для інтеграції з сервісом Gemini"
+
+#~ msgid "Gemini API model"
+#~ msgstr "Модель API Gemini"
+
+#~ msgid "Select Gemini API model to use"
+#~ msgstr "Виберіть модель API Gemini для використання"
+
+#~ msgid "Gemini max tokens"
+#~ msgstr "Максимальна кількість токенів Gemini"
+
+#~ msgid "Gemini max tokens to use"
+#~ msgstr "Максимальна кількість токенів Gemini для використання"
+
+#~ msgid "Other options"
+#~ msgstr "Інші параметри"
+
+#~ msgid "All other various options"
+#~ msgstr "Інші параметри"
+
+#~ msgid "Disable all updates"
+#~ msgstr "Вимкнути всі оновлення"
+
+#~ msgid "Disable plugins and WordPress core updates"
+#~ msgstr "Вимкнути оновлення плагінів та ядра WordPress"
+
+#~ msgid "Translation duplicates"
+#~ msgstr "Дублікати перекладу"
+
+#~ msgid "Create translation duplicates while adding posts"
+#~ msgstr "Створювати дублікати перекладу під час додавання дописів"
+
+#~ msgid "Hide ACF"
+#~ msgstr "Приховати ACF"
+
+#~ msgid "Hide Advanced Custom Fields from Dashboard"
+#~ msgstr "Приховати ACF з інформаційної панелі"
+
+#~ msgid "Disable wp-login.php"
+#~ msgstr "Вимкнути wp-login.php"
+
+#~ msgid "Disable default WordPress login screen"
+#~ msgstr "Вимкнути екран входу в WordPress за замовчуванням"
+
+#~ msgid "tries"
+#~ msgstr "спроб"
+
+#~ msgid "Maximum PIN tries"
+#~ msgstr "Максимальна кількість спроб PIN-коду"
+
+#~ msgid "Maximum PIN tries before temporary lockout"
+#~ msgstr "Максимальна кількість спроб PIN-коду перед тимчасовим блокуванням"
+
+#~ msgid "level"
+#~ msgstr "рівень"
+
+#~ msgid "Website download compression level"
+#~ msgstr "Рівень стиснення завантаження веб-сайту"
+
+#~ msgid ""
+#~ "Compression level for website download ZIP archive (0 - no compression, 9 "
+#~ "- maximum compression)"
+#~ msgstr ""
+#~ "Рівень стиснення для завантаження ZIP-архіву веб-сайту (0 — без "
+#~ "стиснення, 9 — максимальне стиснення)"
+
+#~ msgid "Deployments portal link"
+#~ msgstr "Посилання на портал розгортання"
+
+#~ msgid "Test account default password"
+#~ msgstr "Пароль за замовчуванням для тестового акаунту"
+
+#~ msgid "Default password for test account (test@kaplia.pro) - 6 numbers"
+#~ msgstr ""
+#~ "Пароль за замовчуванням для тестового акаунту (test@kaplia.pro) — 6 цифр"
+
+#~ msgid "Payment information"
+#~ msgstr "Платіжна інформація"
+
+#~ msgid "Payment raw information"
+#~ msgstr "Уся інформація про платіж"
+
+#~ msgid "Payment ID"
+#~ msgstr "ID платежу"
+
+#~ msgid "Completed payment"
+#~ msgstr "Оплата завершена"
+
+#~ msgid "Unknown"
+#~ msgstr "Невідомо"
+
+#~ msgid "SMS log information"
+#~ msgstr "Інформація SMS логування"
+
+#~ msgid "SMS Fly"
+#~ msgstr "SMS-Fly"
+
+#~ msgid "SMS log information response"
+#~ msgstr "Відповідь сервісу відпарвки SMS"
+
+#~ msgid "Sent with"
+#~ msgstr "Надіслано з"
+
+#~ msgid "SMS Alpha Name"
+#~ msgstr "SMS альфа-ім’я"
+
+#~ msgid "Deployments & HTTP authentication portal"
+#~ msgstr "Портал розгортання та HTTP аутентифікації"
+
+#~ msgid "Update theme version"
+#~ msgstr "Оновити версію теми"
+
+#~ msgid "Middle name"
+#~ msgstr "По-батькові"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "Phone confirmed"
+#~ msgstr "Телефон підтверджено"
+
+#~ msgid "Birthday"
+#~ msgstr "Дата народження"
+
+#~ msgid "Account Renewal Deadlines"
+#~ msgstr "Терміни поновлення акаунту"
+
+#~ msgid "No accounts data available."
+#~ msgstr "Дані про акаунти відсутні."
+
+#~ msgid "No accounts to display."
+#~ msgstr "Немає акаунтів для відображення."
+
+#~ msgid "Account Statistics"
+#~ msgstr "Статистика акаунтів"
+
+#~ msgid "User"
+#~ msgstr "Користувач"
+
+#~ msgid "Accessed the account"
+#~ msgstr "Доступ до акаунту"
+
+#~ msgid "My Services page"
+#~ msgstr "Сторінка \"Мої послуги”"
+
+#~ msgid "Order a Website page"
+#~ msgstr "Сторінка “Замовити сайт”"
+
+#~ msgid "Support page"
+#~ msgstr "Сторінка підтримки"
+
+#~ msgid "Select"
+#~ msgstr "Обрати"
+
+#~ msgid "You can not delete this material."
+#~ msgstr "Ви не можете видалити цей матеріал."
+
+#~ msgid "The Customizer is currently disabled."
+#~ msgstr "Кастомайзер наразі вимкнено."
+
+#~ msgid "Icons Generated!"
+#~ msgstr "Згенеровано іконки!"
+
+#~ msgid "Don't forget to manually update your SVG favicon at:"
+#~ msgstr "Не забудьте вручну оновити свій SVG-фавікон за адресою:"
+
+#~ msgid "Icons Deleted!"
+#~ msgstr "Іконки видалено!"
+
+#~ msgid "All PWA icons and manifest have been removed from the site root."
+#~ msgstr "Усі значки та маніфест PWA видалено з кореневого каталогу сайту."
+
+#~ msgid "kb"
+#~ msgstr "кб"
+
+#~ msgid "mb"
+#~ msgstr "мб"
+
+#~ msgid "gb"
+#~ msgstr "гб "
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "User signed in with Google OAuth"
+#~ msgstr "Користувач увійшов за допомогою Google OAuth"
+
+#~ msgid "Account Renewal Notification"
+#~ msgstr "Повідомлення про поновлення акаунту"
+
+#, php-format
+#~ msgid "Account: %s"
+#~ msgstr "Акаунт: %s"
+
+#, php-format
+#~ msgid "Renewal Date: %s"
+#~ msgstr "Дата пролонгування: %s"
+
+#, php-format
+#~ msgid "Days Remaining: %d"
+#~ msgstr "Залишилося днів: %d"
+
+#, php-format
+#~ msgid "Recipient: %s"
+#~ msgstr "Одержувач: %s"
+
+#~ msgid "Redirect Rules Options"
+#~ msgstr "Правила перенаправлення"
+
+#~ msgid ""
+#~ "Invalid redirect rule: Old URL and New URL must be different and not "
+#~ "empty."
+#~ msgstr ""
+#~ "Неправильне правило перенаправлення: Стара URL-адреса та Нова URL-адреса "
+#~ "повинні відрізнятися і не бути порожніми."
+
+#~ msgid "Conflict detected: A redirect rule with this Old URL already exists."
+#~ msgstr ""
+#~ "Виявлено конфлікт: Правило перенаправлення з цією старою URL-адресою вже "
+#~ "існує."
+
+#~ msgid ""
+#~ "Invalid redirect rule: Old URL must contain the current WordPress domain."
+#~ msgstr ""
+#~ "Неправильне правило перенаправлення: Стара URL-адреса повинна містити "
+#~ "поточний домен WordPress."
+
+#~ msgid "Test"
+#~ msgstr "Тест"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Мініатюра"
+
+#~ msgid "Payment update received"
+#~ msgstr "Отримано оновлення про оплату"
+
+#~ msgid "LiqPay Status"
+#~ msgstr "Статус LiqPay"
+
+#~ msgid "Login Attempts"
+#~ msgstr "Спроби входу"
+
+#~ msgid "User Logged Out"
+#~ msgstr "Користувач вийшов з системи"
+
+#, php-format
+#~ msgid "User ID: %d"
+#~ msgstr "Ідентифікатор користувача: %d"
+
+#, php-format
+#~ msgid "Email: %s"
+#~ msgstr "Email: %s"
+
+#~ msgid "Active"
+#~ msgstr "Активний"
+
+#~ msgid "Expired"
+#~ msgstr "Прострочено"
+
+#~ msgid "Unauthorized database download attempt"
+#~ msgstr "Несанкціонована спроба завантаження бази даних"
+
+#~ msgid "Database download attempt with no account sites"
+#~ msgstr "Спроба завантаження бази даних без акаунту"
+
+#~ msgid "Database download attempt for inactive account"
+#~ msgstr "Спроба завантаження бази даних для неактивного облікового запису"
+
+#~ msgid "Unauthorized database download attempt for another database"
+#~ msgstr "Несанкціонована спроба завантаження іншої бази даних"
+
+#~ msgid "Database download export started"
+#~ msgstr "Розпочато завантаження бази даних"
+
+#~ msgid "Database download export failed"
+#~ msgstr "Експорт бази даних не вдався"
+
+#~ msgid "Database download decryption failed"
+#~ msgstr "Не вдалося розшифрувати завантажену базу даних"
+
+#~ msgid "Invalid database download attempt"
+#~ msgstr "Неправильна спроба завантаження бази даних"
+
+#~ msgid "Unauthorized repository download attempt"
+#~ msgstr "Спроба несанкціонованого завантаження репозиторію"
+
+#~ msgid "Repository download attempt with no account sites"
+#~ msgstr "Спроба завантаження репозиторію без облікового запису на сайті"
+
+#~ msgid "Repository download attempt for inactive account"
+#~ msgstr "Спроба завантаження репозиторію для неактивного облікового запису"
+
+#~ msgid "GitHub token not configured for repository download"
+#~ msgstr "Токен GitHub не налаштований для завантаження репозиторію"
+
+#~ msgid "Unauthorized repository download attempt for another repository"
+#~ msgstr "Несанкціонована спроба завантаження для іншого репозиторію"
+
+#~ msgid "Repository download export started"
+#~ msgstr "Розпочато завантаження репозиторію"
+
+#~ msgid "Invalid repository download attempt"
+#~ msgstr "Неправильна спроба завантаження репозиторію"
+
+#~ msgid "Invalid repository download data"
+#~ msgstr "Недійсні дані завантаження репозиторію"
+
+#~ msgid "Unauthorized website download attempt"
+#~ msgstr "Спроба несанкціонованого завантаження веб-сайту"
+
+#~ msgid "Website download attempt with no account sites"
+#~ msgstr "Спроба завантаження веб-сайту без облікового запису"
+
+#~ msgid "Unauthorized website download attempt for another website"
+#~ msgstr "Несанкціонована спроба завантаження веб-сайту для іншого веб-сайту"
+
+#~ msgid "Website download attempt for inactive account"
+#~ msgstr "Спроба завантаження веб-сайту для неактивного облікового запису"
+
+#~ msgid "Website download attempt on non-operate server"
+#~ msgstr "Спроба завантаження веб-сайту на непрацюючому сервері"
+
+#~ msgid "Website directory not found for download"
+#~ msgstr "Не знайдено каталог веб-сайту для завантаження"
+
+#~ msgid "Website download started"
+#~ msgstr "Завантаження веб-сайту розпочато"
+
+#~ msgid "Select account"
+#~ msgstr "Вибрати акаунт"
+
+#~ msgid "Account not found"
+#~ msgstr "Акаунт не знайдено"
+
+#~ msgid "Close"
+#~ msgstr "Закрити"
+
+#~ msgid "Are you sure you want to permanently delete your profile?"
+#~ msgstr "Ви впевнені, що хочете безповоротно видалити свій акаунт?"
+
+#~ msgid "We didn't get any response from Liqpay API"
+#~ msgstr "Ми не отримали жодної відповіді від LiqPay API"
+
+#~ msgid "uah"
+#~ msgstr "грн"
+
+#~ msgid "$"
+#~ msgstr "$"
+
+#~ msgid "€"
+#~ msgstr "€"
+
+#~ msgid "Error 404: Page not found"
+#~ msgstr "Помилка 404: Сторінка не знайдена"
+
+#~ msgid "Archives for"
+#~ msgstr "Архіви для"
+
+#~ msgid "You searched for"
+#~ msgstr "Ваш пошуковий запит"
+
+#~ msgid "Page"
+#~ msgstr "Сторінка"
+
+#~ msgid "Home"
+#~ msgstr "Головна"
+
+#~ msgid "Please, install Advanced Custom Fields PRO version"
+#~ msgstr "Будь ласка, встановіть PRO версію Advanced Custom Fields"
+
+#~ msgid "or"
+#~ msgstr "або"
+
+#~ msgid "Continue with Google"
+#~ msgstr "Продовжити з Google"
+
+#~ msgid "Account name and ID"
+#~ msgstr "Назва та ідентифікатор акаунту"
+
+#~ msgid "Account expiration"
+#~ msgstr "Акаунт дійсний до"
+
+#~ msgid "The account will be renewed until"
+#~ msgstr "Акаунт буде пролонговано до"
+
+#~ msgid "Account price per year"
+#~ msgstr "Ціна акаунту на рік"
+
+#~ msgid "Total price of all domains in the account"
+#~ msgstr "Загальна вартість усіх доменів в акаунті на рік"
+
+#~ msgid "Total amount"
+#~ msgstr "Разом до сплати"
+
+#~ msgid "Renew for a year"
+#~ msgstr "Продовжити на рік"
+
+#~ msgid "First name"
+#~ msgstr "Ім'я"
+
+#~ msgid "Last name"
+#~ msgstr "Прізвище"
+
+#~ msgid "Save"
+#~ msgstr "Зберегти"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+
+#~ msgid "Enter your new Email"
+#~ msgstr "Введіть свій новий Email"
+
+#~ msgid "This field is required"
+#~ msgstr "Це поле є обов’язковим для заповнення"
+
+#~ msgid "Log ID"
+#~ msgstr "Ідентифікатор журналу"
+
+#~ msgid "Edit Link"
+#~ msgstr "Редагувати посилання"
+
+#~ msgid "(new tab)"
+#~ msgstr "(нова вкладка)"
+
+#~ msgid "Failed Login Attempts"
+#~ msgstr "Невдалі спроби входу"
+
+#~ msgid "IP reset successfully."
+#~ msgstr "IP скинуто успішно."
+
+#~ msgid "IP Address"
+#~ msgstr "IP-адреса"
+
+#~ msgid "Attempts"
+#~ msgstr "Спроб"
+
+#~ msgid "Details"
+#~ msgstr "Деталі"
+
+#~ msgid "Actions"
+#~ msgstr "Дії"
+
+#~ msgid "Login"
+#~ msgstr "Авторизація"
+
+#~ msgid "Pin"
+#~ msgstr "PIN-код"
+
+#~ msgid "Session"
+#~ msgstr "Сеанс"
+
+#~ msgid "Time"
+#~ msgstr "Час"
+
+#~ msgid "Reset"
+#~ msgstr "Скинути"
+
+#~ msgid "No login attempts found."
+#~ msgstr "Не знайдено спроб входу."
+
+#~ msgid "Enter your prompt here"
+#~ msgstr "Введіть свій промпт тут"
+
+#~ msgid "Account price"
+#~ msgstr "Ціна акаунту"
+
+#~ msgid "Total price for all account domains"
+#~ msgstr "Загальна вартість для всіх доменів в акаунті"
+
+#~ msgid "Total price"
+#~ msgstr "Загальна ціна"
+
+#~ msgid "Old URL:"
+#~ msgstr "Стара адреса:"
+
+#~ msgid "Code:"
+#~ msgstr "Код:"
+
+#~ msgid "Message"
+#~ msgstr "Повідомлення"
+
+#~ msgid "SMS alpha name"
+#~ msgstr "SMS альфа-ім’я"
+
+#~ msgid "Additional user options"
+#~ msgstr "Додаткові параметри користувача"
+
+#~ msgid "Registered with"
+#~ msgstr "Зареєстрований з"
+
+#~ msgid "Confirmed Phone?"
+#~ msgstr "Підтверджений телефон?"
+
+#~ msgid "dd/mm/yyyy"
+#~ msgstr "дд/мм/рррр"
+
+#~ msgid "Planka login"
+#~ msgstr "Логін Planka"
+
+#~ msgid "Planka password"
+#~ msgstr "Пароль Planka"
+
+#~ msgid "Preferred frontend locale"
+#~ msgstr "Бажана локаль інтерфейсу"
+
+#~ msgid "total"
+#~ msgstr "усього"
+
+#~ msgid "Renewal Date"
+#~ msgstr "Дата пролонгування"
+
+#~ msgid "Days Remaining"
+#~ msgstr "Днів лишилось"
+
+#~ msgid "No accounts found."
+#~ msgstr "Не знайдено жодних акаунтів"
+
+#~ msgid "Total Annual Revenue"
+#~ msgstr "Загальний річний дохід"
+
+#~ msgid "Earned This Year"
+#~ msgstr "Зароблено цього року"
+
+#~ msgid "Projected This Year"
+#~ msgstr "Прогноз на цей рік"
+
+#~ msgid "Earned"
+#~ msgstr "Зароблено"
+
+#~ msgid "Projected"
+#~ msgstr "Прогнозований"
+
+#~ msgid "Revenue"
+#~ msgstr "Дохід"
+
+#~ msgid "This Year`s Revenue Breakdown (UAH)"
+#~ msgstr "Розподіл доходів за цей рік (у грн)"
+
+#~ msgid "New Brief Submission"
+#~ msgstr "Відправка нового брифу"
+
+#~ msgid "A new brief has been submitted with the following details:"
+#~ msgstr "Було відправлено новий бриф з наступними деталями:"
+
+#~ msgid "New Payment Order created"
+#~ msgstr "Створено новий платіж"
+
+#~ msgid "Support form"
+#~ msgstr "Форма підтримки"
+
+#~ msgid "Topic"
+#~ msgstr "Тема"
+
+#~ msgid "Please use the following verification code"
+#~ msgstr "Будь ласка, введіть наступний код підтвердження"
+
+#~ msgid ""
+#~ "Never share this code with anyone. If you donʼt know what this email is "
+#~ "about, just ignore it."
+#~ msgstr ""
+#~ "Ніколи не повідомляйте цей код іншим особам. Якщо ви не знаєте, про що "
+#~ "йдеться в цьому листі, просто проігноруйте його."
+
+#~ msgid "Account information"
+#~ msgstr "Інформація про акаунт"
+
+#~ msgid "Account name and ID:"
+#~ msgstr "Назва та ідентифікатор акаунту:"
+
+#~ msgid "Account status:"
+#~ msgstr "Статус акаунту:"
+
+#~ msgid "Account expiration:"
+#~ msgstr "Акаунт дійсний до:"
+
+#~ msgid "Renew"
+#~ msgstr "Продовжити"
+
+#~ msgid "Account price per year:"
+#~ msgstr "Ціна акаунту на рік:"
+
+#~ msgid "Total price of all domains in the account:"
+#~ msgstr "Загальна вартість усіх доменів в акаунті:"
+
+#~ msgid "Account owner:"
+#~ msgstr "Власник акаунту:"
+
+#~ msgid "Invited users:"
+#~ msgstr "Запрошені користувачі:"
+
+#~ msgid "No invited users"
+#~ msgstr "Немає запрошених користувачів"
+
+#~ msgid "My domains"
+#~ msgstr "Мої домени"
+
+#~ msgid "Valid untill"
+#~ msgstr "Дійсний до"
+
+#~ msgid "Domain price per year"
+#~ msgstr "Ціна домену на рік"
+
+#~ msgid "My mail boxes"
+#~ msgstr "Мої поштові скриньки"
+
+#~ msgid "Mail box"
+#~ msgstr "Поштова скринька"
+
+#~ msgid "Authorisation"
+#~ msgstr "Авторизація"
+
+#~ msgid "My sites"
+#~ msgstr "Мої сайти"
+
+#~ msgid "Site URL"
+#~ msgstr "Адреса сайту"
+
+#~ msgid "Site main URL and subdomains"
+#~ msgstr "Основна адреса сайту та піддомени"
+
+#~ msgid "Databases"
+#~ msgstr "Бази даних"
+
+#~ msgid "Database"
+#~ msgstr "База даних"
+
+#~ msgid "Repositories"
+#~ msgstr "Репозиторії"
+
+#~ msgid "Repository"
+#~ msgstr "Репозиторій"
+
+#~ msgid "Your account"
+#~ msgstr "Ваш акаунт"
+
+#~ msgid "Shared account"
+#~ msgstr "Доступний акаунт"
+
+#~ msgid "Your accounts"
+#~ msgstr "Ваші акаунти"
+
+#~ msgid "My accounts"
+#~ msgstr "Мої акаунти"
+
+#~ msgid "Shared accounts"
+#~ msgstr "Доступні акаунти"
+
+#~ msgid "You do not have any accounts yet"
+#~ msgstr "У вас ще немає акаунтів"
+
+#~ msgid "Tell me more about cookies"
+#~ msgstr "Розкажіть мені більше про файли cookie"
+
+#~ msgid "Log Out"
+#~ msgstr "Вийти"
+
+#~ msgid "Your Email"
+#~ msgstr "Ваш Email"
+
+#, php-format
+#~ msgid ""
+#~ "Your account will expire in %d day. Please renew your subscription to "
+#~ "avoid any interruptions in service."
+#~ msgid_plural ""
+#~ "Your account will expire in %d days. Please renew your subscription to "
+#~ "avoid any interruptions in service."
+#~ msgstr[0] ""
+#~ "Термін дії вашого облікового запису закінчиться через %d день. Будь "
+#~ "ласка, продовжіть обслуговування, щоб уникнути перерв у наданні послуг."
+#~ msgstr[1] ""
+#~ "Термін дії вашого облікового запису закінчиться через %d дні. Будь ласка, "
+#~ "продовжіть обслуговування, щоб уникнути перерв у наданні послуг."
+#~ msgstr[2] ""
+#~ "Термін дії вашого облікового запису закінчиться через %d днів. Будь "
+#~ "ласка, продовжіть обслуговування, щоб уникнути перерв у наданні послуг."
+
+#~ msgid ""
+#~ "Your account service period has expired. Please renew your subscription "
+#~ "to restore access to all your resources."
+#~ msgstr ""
+#~ "Термін дії вашого акаунта завершився. Будь ласка, продовжіть "
+#~ "обслуговування, щоб відновити доступ до всіх ваших ресурсів."
+
+#~ msgid "Step"
+#~ msgstr "Крок"
+
+#~ msgid "from"
+#~ msgstr "з"
+
+#~ msgid "Back"
+#~ msgstr "Повернутися"
+
+#~ msgid "Next"
+#~ msgstr "Далі"
+
+#~ msgid "or you can use messengers below"
+#~ msgstr "або ви можете скористатися месенджерами нижче"
+
+#~ msgid "Planka"
+#~ msgstr "Планка"
+
+#~ msgid "Kanban project manager for all needs"
+#~ msgstr "Менеджер проектів Kanban для всіх потреб"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Confirm phone"
+#~ msgstr "Підтвердити телефон"
+
+#~ msgid "Edit profile"
+#~ msgstr "Редагувати профіль"
+
+#~ msgid "My payments"
+#~ msgstr "Мої платежі"
+
+#~ msgid "Payment date"
+#~ msgstr "Дата оплати"
+
+#~ msgid "You have no payments yet."
+#~ msgstr "У вас ще немає платежів."
+
+#~ msgid "Continue"
+#~ msgstr "Продовжити"
+
+#~ msgid "Account settings"
+#~ msgstr "Налаштування акаунту"
+
+#~ msgid "Total Accounts:"
+#~ msgstr "Загальна кількість акаунтів:"
+
+#~ msgid "There are no domains in your account yet."
+#~ msgstr "У вашому обліковому записі ще немає доменів."
+
+#~ msgid "There are no mail boxes in your account yet."
+#~ msgstr "У вашому обліковому записі ще немає поштових скриньок."
+
+#~ msgid "There are no sites in your account yet."
+#~ msgstr "У вашому обліковому записі ще немає сайтів."
+
+#~ msgid "Payment successful"
+#~ msgstr "Оплата успішно здійснена"
+
+#~ msgid ""
+#~ "We are checking your payment, please wait and dont close this popup "
+#~ "window..."
+#~ msgstr ""
+#~ "Ми перевіряємо ваш платіж, будь ласка, зачекайте і не закривайте це "
+#~ "вікно..."
+
+#~ msgid "Paused"
+#~ msgstr "Призупинено"
+
+#~ msgid "Submit"
+#~ msgstr "Надіслати"
+
+#~ msgid "Enable HTML cache"
+#~ msgstr "Увімкнути HTML кешування"
+
+#~ msgid "Enable HTML page cache for anonymous users"
+#~ msgstr "Увімкнути кеш сторінки HTML для анонімних користувачів"
+
+#~ msgid "Enable minify"
+#~ msgstr "Увімкнути мініфікацію"
+
+#~ msgid "Enable HTML minifier on frontend"
+#~ msgstr "Ввімкнути HTML-мініфікатор на фронтенді"
+
+#~ msgid "Email has been changed."
+#~ msgstr "Email успішно змінено."
+
+#~ msgid "Phone has been changed."
+#~ msgstr "Телефон змінено."
+
+#~ msgid "Enter your new Phone"
+#~ msgstr "Введіть свій новий Телефон"
+
+#~ msgid "New Email"
+#~ msgstr "Новий Email"
+
+#~ msgid "New Phone"
+#~ msgstr "Новий Телефон"
+
+#~ msgid "Unauthorized database download attempt for another account"
+#~ msgstr ""
+#~ "Несанкціонована спроба завантаження бази даних для іншого облікового "
+#~ "запису"
+
+#~ msgid "Unauthorized repository download attempt for another account"
+#~ msgstr ""
+#~ "Несанкціонована спроба завантаження репозиторію для іншого облікового "
+#~ "запису"
+
+#~ msgid "Unauthorized website download attempt for another account"
+#~ msgstr ""
+#~ "Спроба несанкціонованого завантаження веб-сайту для іншого облікового "
+#~ "запису"
+
+#~ msgid "₴ (uah)"
+#~ msgstr "₴ (грн)"
+
+#~ msgid "UAH"
+#~ msgstr "грн"
+
+#~ msgid "Your Question"
+#~ msgstr "Ваше запитання"
+
+#~ msgid "Describe your issue in detail"
+#~ msgstr "Опишіть свою проблему детально"
+
+#~ msgid "Inactive"
+#~ msgstr "Неактивний"
+
+#~ msgid "Suspended"
+#~ msgstr "Призупинений"
+
+#~ msgid "MySQL Instance ID"
+#~ msgstr "Ідентифікатор екземпляра MySQL"
+
+#~ msgid "Enter MySQL instance ID"
+#~ msgstr "Введіть ідентифікатор екземпляра MySQL"
+
+#~ msgid "Successful login notification"
+#~ msgstr "Повідомлення про успішний вхід"
+
+#~ msgid "Check my websites now"
+#~ msgstr "Переглянути мої веб-сайти зараз"
+
+#~ msgid "Successful registration"
+#~ msgstr "Успішна реєстрація"
+
+#~ msgid ""
+#~ "Customize the email content sent to users upon sign-in. You can use "
+#~ "placeholders like {username}, {email}, and {date_time} to personalize the "
+#~ "message."
+#~ msgstr ""
+#~ "Налаштуйте вміст електронного листа, що надсилається користувачам після "
+#~ "входу в систему. Ви можете використовувати замінні символи, такі як "
+#~ "{username}, {email} та {date_time}, щоб персоналізувати повідомлення."
+
+#~ msgid ""
+#~ "Customize the email content sent to users upon sign-up. You can use "
+#~ "placeholders like {username}, {email}, and {date_time} to personalize the "
+#~ "message."
+#~ msgstr ""
+#~ "Налаштуйте вміст електронного листа, що надсилається користувачам після "
+#~ "реєстрації. Ви можете використовувати замінні символи, такі як "
+#~ "{username}, {email} та {date_time}, щоб персоналізувати повідомлення."
+
+#~ msgid "Successful Login"
+#~ msgstr "Успішний вхід"
+
+#~ msgid "You have successfully logged into your account."
+#~ msgstr "Ви успішно увійшли до свого облікового запису."
+
+#~ msgid "Successful Registration"
+#~ msgstr "Успішна реєстрація"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully registered an account on our "
+#~ "portal."
+#~ msgstr ""
+#~ "Вітаємо! Ви успішно зареєстрували обліковий запис на нашому порталі."
+
+#~ msgid ""
+#~ "You can now log in using your credentials and explore all the features we "
+#~ "offer."
+#~ msgstr ""
+#~ "Тепер ви можете увійти, використовуючи свої облікові дані, і вивчити всі "
+#~ "функції, які ми пропонуємо."
+
+#, php-format
+#~ msgid "%1$s %2$d"
+#~ msgstr "%1$s %2$d"
+
+#, php-format
+#~ msgid "%s ago"
+#~ msgstr "%s тому"
+
+#, php-format
+#~ msgid "%s from now"
+#~ msgstr "%s відтепер"
+
+#~ msgid "Pages"
+#~ msgstr "Сторінки"
+
+#~ msgid "&laquo; Previous"
+#~ msgstr "&laquo; Назад"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "Вперед &raquo;"
+
+#~ msgid "&hellip;"
+#~ msgstr "&hellip;"
+
+#~ msgid "Google Cloud Console"
+#~ msgstr "Google Cloud Консоль"
+
+#~ msgid "Header"
+#~ msgstr "Шапка"
+
+#~ msgid "Header options updated"
+#~ msgstr "Параметри шапки оновлено"
+
+#~ msgid "Footer"
+#~ msgstr "Підвал"
+
+#~ msgid "Other"
+#~ msgstr "Інше"
+
+#~ msgid "Other options updated"
+#~ msgstr "Інші опції оновлено"
+
+#~ msgid "Pattern categories"
+#~ msgstr "Категорії патернів"
+
+#~ msgid "Pattern category"
+#~ msgstr "Категорія патерну"
+
+#~ msgid "Search categories"
+#~ msgstr "Категорії пошуку"
+
+#~ msgid "All categories"
+#~ msgstr "Всі категорії"
+
+#~ msgid "Edit category"
+#~ msgstr "Редагувати категорію"
+
+#~ msgid "Update category"
+#~ msgstr "Оновити категорію"
+
+#~ msgid "Add new category"
+#~ msgstr "Додати нову категорію"
+
+#~ msgid "New category name"
+#~ msgstr "Нова назва категорії"
+
+#~ msgid ""
+#~ "In this section, you can configure a custom SMTP server to send emails "
+#~ "from your website. You can specify the SMTP host, port, username, "
+#~ "password, and from name. Additionally, you can enable a secure SMTP "
+#~ "connection using SSL."
+#~ msgstr ""
+#~ "У цьому розділі ви можете налаштувати власний SMTP-сервер для надсилання "
+#~ "електронних листів з вашого веб-сайту. Ви можете вказати хост SMTP, порт, "
+#~ "ім'я користувача, пароль та ім'я відправника. Крім того, ви можете "
+#~ "ввімкнути безпечне з'єднання SMTP за допомогою SSL."
+
+#~ msgid ""
+#~ "In this section, you can add custom HTML code to the header and footer of "
+#~ "your website. The custom code will be placed inside the header tag and "
+#~ "before the end of the body tag. You can use this feature to add custom "
+#~ "scripts, styles, meta tags, and other elements to your website."
+#~ msgstr ""
+#~ "У цьому розділі ви можете додати кастомний HTML-код до верхнього та "
+#~ "нижнього колонтитулів вашого сайту. Кастомний код буде розміщено "
+#~ "всередині тегу title у верхньому колонтитулі та перед кінцем тегу body у "
+#~ "нижньому колонтитулі."
+
+#~ msgid ""
+#~ "In this section, you can enable or disable various options that affect "
+#~ "the functionality of your website. You can disable updates, customizer, "
+#~ "src set, default image sizes, core privacy tools, CYR3LAT "
+#~ "transliteration, DNS prefetch, Rest API, Emojis, Embeds, dashboard "
+#~ "widgets, admin top bar, admin email verification, comments, child media "
+#~ "deletion, HTML cache, minify, ACF, Gutenberg editor, and specify the "
+#~ "Google maps API key."
+#~ msgstr ""
+#~ "У цьому розділі ви можете ввімкнути або вимкнути різні параметри, які "
+#~ "впливають на функціональність вашого веб-сайту. Ви можете вимкнути "
+#~ "оновлення, настроювач, набір src, розміри зображень за замовчуванням, "
+#~ "основні інструменти конфіденційності, транслітерацію CYR3LAT, попередню "
+#~ "вибірку DNS, Rest API, Emojis, вбудовування, віджети інформаційної "
+#~ "панелі, верхню панель адміністратора, перевірку електронної пошти "
+#~ "адміністратора, коментарі, видалення дочірніх медіафайлів, кеш HTML , "
+#~ "minify, ACF, редактор Gutenberg і вкажіть ключ API карт Google."
+
+#~ msgid "Patterns"
+#~ msgstr "Патерни"
+
+#~ msgid "Pattern"
+#~ msgstr "Патерн"
+
+#~ msgid "Add item"
+#~ msgstr "Додати елемент"
+
+#~ msgid "New item"
+#~ msgstr "Нова позиція"
+
+#~ msgid "View item"
+#~ msgstr "Переглянути"
+
+#, php-format
+#~ msgid "Error generating post %d: %s"
+#~ msgstr "Помилка створення публікації %d: %s"
+
+#, php-format
+#~ msgid "Successfully generated %d posts!"
+#~ msgstr "Успішно створено %d публікацій!"
+
+#~ msgid "Errors occurred:"
+#~ msgstr "Виникли помилки:"
+
+#~ msgid "Generate Random Posts"
+#~ msgstr "Генерація випадкових постів"
+
+#~ msgid "Number of posts to generate"
+#~ msgstr "Кількість постів для генерації"
+
+#~ msgid "How many posts should be generated (max 100)"
+#~ msgstr "Скільки постів має бути згенеровано (максимум 100)"
+
+#~ msgid "Paragraphs per post"
+#~ msgstr "Кількість абзаців"
+
+#~ msgid "How many paragraphs should be in each post (max 50)"
+#~ msgstr "Скільки абзаців має бути в кожному пості (максимум 50)"
+
+#~ msgid "Include featured image"
+#~ msgstr "Додати обкладинку посту"
+
+#~ msgid "Generate and attach a random featured image for each post"
+#~ msgstr "Створюйте та прикріплюйте випадкове зображення для кожного посту"
+
+#~ msgid "Main blocks"
+#~ msgstr "Основні блоки"
+
+#~ msgid "Logical blocks"
+#~ msgstr "Логічні блоки"
+
+#~ msgid "First screen"
+#~ msgstr "Перший екран"
+
+#~ msgid "Second screen"
+#~ msgstr "Другий екран"
+
+#~ msgid "Block"
+#~ msgstr "Блок"
+
+#~ msgid "Block from"
+#~ msgstr "Блок від"
+
+#~ msgid "Disable customizer"
+#~ msgstr "Вимкнути кастомайзер"
+
+#~ msgid "Disable WordPress customizer"
+#~ msgstr "Вимкнути WordPress кастомайзер"
+
+#~ msgid "Disable src set"
+#~ msgstr "Вимкнути src set"
+
+#~ msgid "Disable src set for images"
+#~ msgstr "Вимкнути src set для зображень"
+
+#~ msgid "Remove default image sizes in WordPress"
+#~ msgstr "Вимкнути стандартні розміри зображень у WordPress"
+
+#~ msgid "Disable core privacy tools"
+#~ msgstr "Вимкнути інструменти конфіденціальності"
+
+#~ msgid "Disable default WordPress core privacy tools"
+#~ msgstr ""
+#~ "Вимкніть основні інструменти конфіденційності WordPress за замовчуванням"
+
+#~ msgid "Enable CYR3LAT"
+#~ msgstr "Активувати CYR3LAT"
+
+#~ msgid "Enable CYR3LAT transliteration"
+#~ msgstr "Увімкнути транслітерацію CYR3LAT"
+
+#~ msgid "Disable DNS prefetch"
+#~ msgstr "Приховати DNS prefetch"
+
+#~ msgid "Disable DNS prefetch for external resources"
+#~ msgstr "Вимкнути попередню вибірку DNS для зовнішніх ресурсів"
+
+#~ msgid "Disable Rest API"
+#~ msgstr "Вимкнути Rest API"
+
+#~ msgid "Disable Rest API for anonymous users"
+#~ msgstr "Вимкнути Rest API для анонімних користувачів"
+
+#~ msgid "Disable Emojis"
+#~ msgstr "Вимкнути Emoji"
+
+#~ msgid "Disable Embeds"
+#~ msgstr "Вимкнути Embeds"
+
+#~ msgid "Disable default WordPress Embeds"
+#~ msgstr "Вимкніть стандартні ембеди WordPress"
+
+#~ msgid "Disable dashboard widgets"
+#~ msgstr "Приховати системні віджети консолі"
+
+#~ msgid "Disable default WordPress dashboard widgets"
+#~ msgstr "Вимкніть стандартні віджети інформаційної панелі WordPress"
+
+#~ msgid "Hide admin top bar"
+#~ msgstr "Вимкнути панель адміністратора"
+
+#~ msgid "Hide admin top bar for all users on front-end"
+#~ msgstr ""
+#~ "Приховати верхню панель адміністратора для всіх користувачів на фронтенді"
+
+#~ msgid "Disable admin email verification"
+#~ msgstr "Вимкнути E-mail верифікацію для адмінів"
+
+#~ msgid "Disable default WordPress admin email verification"
+#~ msgstr ""
+#~ "Вимкнути стандартну перевірку електронної пошти адміністратора WordPress"
+
+#~ msgid "Disable comments"
+#~ msgstr "Вимкнути коментарі"
+
+#~ msgid "Disable comments on all posts and pages"
+#~ msgstr "Вимкнути коментарі до всіх публікацій і сторінок"
+
+#~ msgid "Delete child media"
+#~ msgstr "Видаляти вкладення"
+
+#~ msgid "Delete child media when parent post is deleted"
+#~ msgstr "Видалити дочірні медіафайли, коли буде видалено батьківський допис"
+
+#~ msgid "Disable Gutenberg editor everywhere"
+#~ msgstr "Вимкніть редактор Gutenberg всюди"
+
+#~ msgid "Disable Gutenberg editor for Blog"
+#~ msgstr "Вимкнути редактор Gutenberg для блогу"
+
+#~ msgid "Parse all pages blocks as Gutenberg patterns"
+#~ msgstr "Парсити усі блоки сторінок як Гутенберг патерни"
+
+#~ msgid "Website under Maintenance"
+#~ msgstr "Веб-сайт на технічному обслуговуванні"
+
+#~ msgid ""
+#~ "We are performing scheduled maintenance. We will be back online shortly."
+#~ msgstr ""
+#~ "Ми проводимо планове технічне обслуговування. Ми проводимо планове "
+#~ "технічне обслуговування. Незабаром ми знову будемо онлайн."
+
+#~ msgid "No pattern selected"
+#~ msgstr "Патерн не обрано"
+
+#~ msgid "Google maps API key to integrate with Advanced Custom Fields"
+#~ msgstr "Ключ API карт Google для інтеграції з Advanced Custom Fields"
+
+#~ msgid "Main"
+#~ msgstr "Головний"
+
+#~ msgid "System tweaks"
+#~ msgstr "Системні налаштування"
+
+#~ msgid "Maintenance mode title"
+#~ msgstr "Заголовок режиму обслуговування"
+
+#~ msgid "Maintenance mode text"
+#~ msgstr "Текст режиму обслуговування"
+
+#~ msgid "Your password"
+#~ msgstr "Ваш пароль"
+
+#~ msgid "Website options"
+#~ msgstr "Налаштування сайту"
+
+#~ msgid "Inline scripts and styles"
+#~ msgstr "Інлайнові скрипти та стилі"
+
+#~ msgid "Host"
+#~ msgstr "Хост"
+
+#~ msgid "Relational"
+#~ msgstr "Реляційний"
+
+#~ msgid "Framework"
+#~ msgstr "Фреймворк"
+
+#~ msgid "User additional fields"
+#~ msgstr "Додаткові поля користувача"
