@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: acf-secure-file-field\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 23:28+0200\n"
+"POT-Creation-Date: 2025-11-23 23:43+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
 "Language-Team: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
@@ -18,129 +18,134 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: acf-secure-file-field.php:36 acf-secure-file-field.php:275
-#: acf-secure-file-field.php:276
+#: acf-secure-file-field.php:44
+#, php-format
+msgid "%s requires Advanced Custom Fields (ACF) to be installed and active."
+msgstr ""
+
+#: acf-secure-file-field.php:58 acf-secure-file-field.php:297
+#: acf-secure-file-field.php:298
 msgid "Settings"
 msgstr ""
 
-#: acf-secure-file-field.php:46 acf-secure-file-field.php:48
+#: acf-secure-file-field.php:68 acf-secure-file-field.php:70
 msgid "Secured Files"
 msgstr ""
 
-#: acf-secure-file-field.php:47
+#: acf-secure-file-field.php:69
 msgid "Secured File"
 msgstr ""
 
-#: acf-secure-file-field.php:74
+#: acf-secure-file-field.php:96
 msgid "Permission denied"
 msgstr ""
 
-#: acf-secure-file-field.php:79
+#: acf-secure-file-field.php:101
 msgid "No file uploaded"
 msgstr ""
 
-#: acf-secure-file-field.php:165
+#: acf-secure-file-field.php:187
 msgid "Failed to create database record"
 msgstr ""
 
-#: acf-secure-file-field.php:203
+#: acf-secure-file-field.php:225
 msgid "You do not have permission to download this file."
 msgstr ""
 
-#: acf-secure-file-field.php:203
+#: acf-secure-file-field.php:225
 msgid "Access Denied"
 msgstr ""
 
-#: acf-secure-file-field.php:245
+#: acf-secure-file-field.php:267
 msgid "File not found on server."
 msgstr ""
 
-#: acf-secure-file-field.php:245 acf-secure-file-field.php:248
+#: acf-secure-file-field.php:267 acf-secure-file-field.php:270
 msgid "Error"
 msgstr ""
 
-#: acf-secure-file-field.php:248
+#: acf-secure-file-field.php:270
 msgid "Invalid download link."
 msgstr ""
 
-#: acf-secure-file-field.php:265
+#: acf-secure-file-field.php:287
 msgid "Settings saved."
 msgstr ""
 
-#: acf-secure-file-field.php:304
+#: acf-secure-file-field.php:326
 msgid "Download Access Control"
 msgstr ""
 
-#: acf-secure-file-field.php:311
+#: acf-secure-file-field.php:333
 msgid "Who can download files?"
 msgstr ""
 
-#: acf-secure-file-field.php:319
+#: acf-secure-file-field.php:341
 msgid "Allowed Roles"
 msgstr ""
 
-#: acf-secure-file-field.php:327
+#: acf-secure-file-field.php:349
 msgid "General Settings"
 msgstr ""
 
-#: acf-secure-file-field.php:334
+#: acf-secure-file-field.php:356
 msgid "Upload Directory Name"
 msgstr ""
 
-#: acf-secure-file-field.php:342
+#: acf-secure-file-field.php:364
 msgid "General plugin settings."
 msgstr ""
 
-#: acf-secure-file-field.php:353
+#: acf-secure-file-field.php:375
 msgid ""
 "The directory name cannot be changed because secure files have already been "
 "uploaded."
 msgstr ""
 
-#: acf-secure-file-field.php:357
+#: acf-secure-file-field.php:379
 msgid ""
 "The name of the folder inside wp-content where files will be stored. Use "
 "lowercase letters, numbers, and hyphens only."
 msgstr ""
 
-#: acf-secure-file-field.php:364
+#: acf-secure-file-field.php:386
 msgid "Control who is allowed to download the secure files."
 msgstr ""
 
-#: acf-secure-file-field.php:372
+#: acf-secure-file-field.php:394
 msgid "Anyone with the link"
 msgstr ""
 
-#: acf-secure-file-field.php:373
+#: acf-secure-file-field.php:395
 msgid "Any logged-in user"
 msgstr ""
 
-#: acf-secure-file-field.php:374
+#: acf-secure-file-field.php:396
 msgid "Users with specific roles"
 msgstr ""
 
-#: acf-secure-file-field.php:393
+#: acf-secure-file-field.php:415
 msgid ""
 "This is only active when \"Users with specific roles\" is selected above."
 msgstr ""
 
-#: acf-secure-file-field.php:474
+#: acf-secure-file-field.php:496
 msgid "File Type"
 msgstr ""
 
-#: acf-secure-file-field.php:475
+#: acf-secure-file-field.php:497
 msgid "File Size"
 msgstr ""
 
-#: acf-secure-file-field.php:492
+#: acf-secure-file-field.php:514
 msgid "File not found"
 msgstr ""
 
-#: acf-secure-file-field.php:523
+#: acf-secure-file-field.php:545
 msgid "This file does not have a valid download link."
 msgstr ""
 
-#: acf-secure-file-field.php:535
+#: acf-secure-file-field.php:557
 msgid "Permission denied."
 msgstr ""
 

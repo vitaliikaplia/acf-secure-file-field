@@ -15,7 +15,7 @@ class ACF_Field_Secure_File extends acf_field {
     }
 
     function input_admin_enqueue_scripts() {
-        $url = ACF_SECURE_FILE_URL;
+        $url = ACF_SECURE_FILE_FIELD_URL;
         wp_enqueue_script('acf-secure-file-field-js', $url . 'assets/js/input.js', array('jquery'), '1.1', true);
         wp_enqueue_style('acf-secure-file-field-css', $url . 'assets/css/input.css', array(), '1.1');
 

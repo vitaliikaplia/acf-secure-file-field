@@ -27,8 +27,30 @@ function asff_activate() {
 }
 
 
-define( 'ACF_SECURE_FILE_PATH', plugin_dir_path( __FILE__ ) );
-define( 'ACF_SECURE_FILE_URL', plugin_dir_url( __FILE__ ) );
+define( 'ACF_SECURE_FILE_FIELD_PATH', plugin_dir_path( __FILE__ ) );
+define( 'ACF_SECURE_FILE_FIELD_URL', plugin_dir_url( __FILE__ ) );
+
+// Check dependency
+add_action( 'admin_notices', 'asff_check_acf_dependency' );
+function asff_check_acf_dependency() {
+    if ( ! class_exists( 'ACF' ) && ! function_exists( 'acf' ) ) {
+        if ( current_user_can( 'activate_plugins' ) ) {
+            ?>
+            <div class="notice notice-error is-dismissible">
+                <p>
+                    <?php
+                    printf(
+                    /* translators: %s: Plugin name */
+                            esc_html__( '%s requires Advanced Custom Fields (ACF) to be installed and active.', 'acf-secure-file-field' ),
+                            '<strong>ACF Secure File Field</strong>'
+                    );
+                    ?>
+                </p>
+            </div>
+            <?php
+        }
+    }
+}
 
 // Add Settings link on plugin page
 add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'asff_add_settings_link' );
@@ -62,7 +84,7 @@ function asff_register_cpt() {
 // 2. Register ACF Field
 add_action( 'acf/include_field_types', 'asff_include_field' );
 function asff_include_field() {
-    include_once ACF_SECURE_FILE_PATH . 'includes/class-acf-field-secure-file.php';
+    include_once ACF_SECURE_FILE_FIELD_PATH . 'includes/class-acf-field-secure-file.php';
 }
 
 // 3. AJAX Upload Handler
