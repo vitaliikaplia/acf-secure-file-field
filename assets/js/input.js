@@ -1,4 +1,5 @@
 (($) => {
+
     if (typeof acf === 'undefined') {
         return;
     }
@@ -18,7 +19,7 @@
 
         initialize() {
             this.$modal = this.$('.asff-modal-backdrop');
-            this.$valueInput = this.$('.acf-secure-file-value');
+            this.$valueInput = this.$('.acf-secure-file-field-value');
             this.$preview = this.$('.asff-file-preview');
         },
 
@@ -91,21 +92,21 @@
                                     <li class="asff-file-list-item" data-file='${JSON.stringify(file)}'>
                                         <span class="dashicons dashicons-media-document"></span>
                                         <span class="filename">${file.name}</span>
-                                        <button type="button" class="button button-primary">${acf.__('Select')}</button>
+                                        <button type="button" class="button button-primary">${asff_i18n.select}</button>
                                     </li>
                                 `;
                             });
                             html += '</ul>';
                             $container.html(html);
                         } else {
-                            $container.html(`<p>${acf.__('No secure files found.')}</p>`);
+                            $container.html(`<p>${asff_i18n.no_secure_files_found}</p>`);
                         }
                     } else {
                         $container.html(`<p>${response.data.message}</p>`);
                     }
                 },
                 error: () => {
-                    $container.html(`<p>${acf.__('An error occurred while fetching files.')}</p>`);
+                    $container.html(`<p>${asff_i18n.error_fetching_files}</p>`);
                 }
             });
         },
@@ -146,7 +147,7 @@
                     }
                 },
                 error: () => {
-                    alert(acf.__('Upload failed.'));
+                    alert(asff_i18n.upload_failed);
                 },
                 complete: () => {
                     setTimeout(() => {
@@ -168,7 +169,7 @@
             if ($downloadBtn.length) {
                 $downloadBtn.attr('href', fileData.url);
             } else {
-                $previewFile.append(` <a href="${fileData.url}" target="_blank" class="button button-small asff-download">${acf.__('Download')}</a>`);
+                $previewFile.append(` <a href="${fileData.url}" target="_blank" class="button button-small asff-download">${asff_i18n.download}</a>`);
             }
 
             this.$preview.removeClass('no-file').addClass('has-file');
@@ -180,7 +181,7 @@
             this.$valueInput.val('').trigger('change');
 
             const $previewFile = this.$preview.find('.asff-selected-file');
-            $previewFile.find('.filename').text(acf.__('No file selected'));
+            $previewFile.find('.filename').text(asff_i18n.no_file_selected);
             $previewFile.find('.asff-download').remove();
 
             this.$preview.removeClass('has-file').addClass('no-file');

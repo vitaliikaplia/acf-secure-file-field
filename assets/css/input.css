@@ -1,10 +1,10 @@
-.acf-secure-file-wrapper .asff-file-preview.no-file .asff-remove-file {
+.acf-secure-file-field-wrapper .asff-file-preview.no-file .asff-remove-file {
     display: none;
 }
-.acf-secure-file-wrapper .asff-file-preview.has-file .asff-remove-file {
+.acf-secure-file-field-wrapper .asff-file-preview.has-file .asff-remove-file {
     display: inline-block;
 }
-.acf-secure-file-wrapper .asff-file-preview .asff-selected-file {
+.acf-secure-file-field-wrapper .asff-file-preview .asff-selected-file {
     margin-bottom: 10px;
     padding: 10px;
     background: #f9f9f9;
@@ -12,14 +12,14 @@
     display: flex;
     align-items: center;
 }
-.acf-secure-file-wrapper .asff-file-preview .filename {
+.acf-secure-file-field-wrapper .asff-file-preview .filename {
     margin-left: 8px;
     font-weight: bold;
 }
-.acf-secure-file-wrapper .asff-file-preview.no-file .filename {
+.acf-secure-file-field-wrapper .asff-file-preview.no-file .filename {
     color: #999;
 }
-.acf-secure-file-wrapper .asff-download {
+.acf-secure-file-field-wrapper .asff-download {
     margin-left: auto;
 }
 

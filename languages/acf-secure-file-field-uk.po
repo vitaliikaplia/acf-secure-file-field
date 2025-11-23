@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: acf-secure-file\n"
+"Project-Id-Version: acf-secure-file-field\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 19:23+0200\n"
+"POT-Creation-Date: 2025-11-23 23:28+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
 "Language-Team: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
@@ -18,95 +18,87 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: acf-secure-file-field.php:42 acf-secure-file-field.php:257
-#: acf-secure-file-field.php:258
+#: acf-secure-file-field.php:36 acf-secure-file-field.php:275
+#: acf-secure-file-field.php:276
 msgid "Settings"
 msgstr "Налаштування"
 
-#: acf-secure-file-field.php:52 acf-secure-file-field.php:54
+#: acf-secure-file-field.php:46 acf-secure-file-field.php:48
 msgid "Secured Files"
 msgstr "Захищені файли"
 
-#: acf-secure-file-field.php:53
+#: acf-secure-file-field.php:47
 msgid "Secured File"
 msgstr "Захищений файл"
 
-#: acf-secure-file-field.php:80
+#: acf-secure-file-field.php:74
 msgid "Permission denied"
 msgstr "В доступі відмовлено"
 
-#: acf-secure-file-field.php:84
+#: acf-secure-file-field.php:79
 msgid "No file uploaded"
 msgstr "Файл не завантажено"
 
-#: acf-secure-file-field.php:92
-msgid "Sorry, this file type is not permitted for security reasons."
-msgstr "На жаль, цей тип файлу заборонений з міркувань безпеки."
-
-#: acf-secure-file-field.php:153
+#: acf-secure-file-field.php:165
 msgid "Failed to create database record"
 msgstr "Не вдалося створити запис у базі даних"
 
-#: acf-secure-file-field.php:156
-msgid "Failed to move uploaded file"
-msgstr "Не вдалося перемістити завантажений файл"
-
-#: acf-secure-file-field.php:190
+#: acf-secure-file-field.php:203
 msgid "You do not have permission to download this file."
 msgstr "Ви не маєте дозволу на завантаження цього файлу."
 
-#: acf-secure-file-field.php:190
+#: acf-secure-file-field.php:203
 msgid "Access Denied"
 msgstr "Доступ обмежений"
 
-#: acf-secure-file-field.php:231
+#: acf-secure-file-field.php:245
 msgid "File not found on server."
 msgstr "Файл не знайдено на сервері."
 
-#: acf-secure-file-field.php:231 acf-secure-file-field.php:234
+#: acf-secure-file-field.php:245 acf-secure-file-field.php:248
 msgid "Error"
 msgstr "Помилка"
 
-#: acf-secure-file-field.php:234
+#: acf-secure-file-field.php:248
 msgid "Invalid download link."
 msgstr "Невірне посилання для скачування."
 
-#: acf-secure-file-field.php:247
+#: acf-secure-file-field.php:265
 msgid "Settings saved."
 msgstr "Налаштування збережені."
 
-#: acf-secure-file-field.php:286
+#: acf-secure-file-field.php:304
 msgid "Download Access Control"
 msgstr "Контроль доступу завантажень"
 
-#: acf-secure-file-field.php:293
+#: acf-secure-file-field.php:311
 msgid "Who can download files?"
 msgstr "Хто може завантажувати файли?"
 
-#: acf-secure-file-field.php:301
+#: acf-secure-file-field.php:319
 msgid "Allowed Roles"
 msgstr "Дозволені ролі"
 
-#: acf-secure-file-field.php:309
+#: acf-secure-file-field.php:327
 msgid "General Settings"
 msgstr "Загальні налаштування"
 
-#: acf-secure-file-field.php:316
+#: acf-secure-file-field.php:334
 msgid "Upload Directory Name"
 msgstr "Назва каталогу для завантаження"
 
-#: acf-secure-file-field.php:324
+#: acf-secure-file-field.php:342
 msgid "General plugin settings."
 msgstr "Загальні налаштування плагіна."
 
-#: acf-secure-file-field.php:335
+#: acf-secure-file-field.php:353
 msgid ""
 "The directory name cannot be changed because secure files have already been "
 "uploaded."
 msgstr ""
 "Назву каталогу не можна змінити, оскільки захищені файли вже завантажено."
 
-#: acf-secure-file-field.php:339
+#: acf-secure-file-field.php:357
 msgid ""
 "The name of the folder inside wp-content where files will be stored. Use "
 "lowercase letters, numbers, and hyphens only."
@@ -114,97 +106,105 @@ msgstr ""
 "Назва папки всередині wp-content, де будуть зберігатися файли. "
 "Використовуйте тільки малі літери, цифри та дефіси."
 
-#: acf-secure-file-field.php:346
+#: acf-secure-file-field.php:364
 msgid "Control who is allowed to download the secure files."
 msgstr "Контролюйте, хто має право завантажувати захищені файли."
 
-#: acf-secure-file-field.php:354
+#: acf-secure-file-field.php:372
 msgid "Anyone with the link"
 msgstr "Будь-хто, хто має посилання"
 
-#: acf-secure-file-field.php:355
+#: acf-secure-file-field.php:373
 msgid "Any logged-in user"
 msgstr "Будь-який зареєстрований користувач"
 
-#: acf-secure-file-field.php:356
+#: acf-secure-file-field.php:374
 msgid "Users with specific roles"
 msgstr "Користувачі з певними ролями"
 
-#: acf-secure-file-field.php:375
+#: acf-secure-file-field.php:393
 msgid ""
 "This is only active when \"Users with specific roles\" is selected above."
 msgstr ""
 "Ця опція активна тільки в тому випадку, якщо вище вибрано «Користувачі з "
 "певними ролями»."
 
-#: acf-secure-file-field.php:454
+#: acf-secure-file-field.php:474
 msgid "File Type"
 msgstr "Тип файлу"
 
-#: acf-secure-file-field.php:455
+#: acf-secure-file-field.php:475
 msgid "File Size"
 msgstr "Розмір Файлу"
 
-#: acf-secure-file-field.php:472
+#: acf-secure-file-field.php:492
 msgid "File not found"
 msgstr "Файл не знайдено"
 
-#: acf-secure-file-field.php:501
+#: acf-secure-file-field.php:523
 msgid "This file does not have a valid download link."
 msgstr "Цей файл не має дійсного посилання для завантаження."
 
-#: acf-secure-file-field.php:513
+#: acf-secure-file-field.php:535
 msgid "Permission denied."
 msgstr "В дозволі відмовлено."
 
-#: assets/js/input.js:94
-msgid "Select"
-msgstr "Обрати"
-
-#: assets/js/input.js:100
-msgid "No secure files found."
-msgstr "Безпечних файлів не знайдено."
-
-#: assets/js/input.js:107
-msgid "An error occurred while fetching files."
-msgstr "Під час завантаження файлів сталася помилка."
-
-#: assets/js/input.js:149
-msgid "Upload failed."
-msgstr "Завантаження не вдалося."
-
-#: assets/js/input.js:168 includes/class-acf-field-secure-file.php:45
-msgid "Download"
-msgstr "Завантажити"
-
-#: assets/js/input.js:180 includes/class-acf-field-secure-file.php:43
-msgid "No file selected"
-msgstr "Файл не вибрано"
-
-#: includes/class-acf-field-secure-file.php:8
-#: includes/class-acf-field-secure-file.php:58
+#: includes/class-acf-field-secure-file.php:9
+#: includes/class-acf-field-secure-file.php:70
 msgid "Secure File"
 msgstr "Безпечний файл"
 
-#: includes/class-acf-field-secure-file.php:49
+#: includes/class-acf-field-secure-file.php:24
+msgid "Select"
+msgstr "Обрати"
+
+#: includes/class-acf-field-secure-file.php:25
+msgid "No secure files found."
+msgstr "Безпечних файлів не знайдено."
+
+#: includes/class-acf-field-secure-file.php:26
+msgid "An error occurred while fetching files."
+msgstr "Під час завантаження файлів сталася помилка."
+
+#: includes/class-acf-field-secure-file.php:27
+msgid "Upload failed."
+msgstr "Завантаження не вдалося."
+
+#: includes/class-acf-field-secure-file.php:28
+#: includes/class-acf-field-secure-file.php:57
+msgid "Download"
+msgstr "Завантажити"
+
+#: includes/class-acf-field-secure-file.php:29
+#: includes/class-acf-field-secure-file.php:55
+msgid "No file selected"
+msgstr "Файл не вибрано"
+
+#: includes/class-acf-field-secure-file.php:61
 msgid "Select File"
 msgstr "Вибрати файл"
 
-#: includes/class-acf-field-secure-file.php:50
+#: includes/class-acf-field-secure-file.php:62
 msgid "Remove"
 msgstr "Видалити"
 
-#: includes/class-acf-field-secure-file.php:63
+#: includes/class-acf-field-secure-file.php:75
 msgid "Upload New"
 msgstr "Завантажити нове"
 
-#: includes/class-acf-field-secure-file.php:64
+#: includes/class-acf-field-secure-file.php:76
 msgid "Select Existing"
 msgstr "Вибрати існуючий"
 
-#: includes/class-acf-field-secure-file.php:70
+#: includes/class-acf-field-secure-file.php:82
 msgid "Select or drag a file for secure upload."
 msgstr "Виберіть або перетягніть файл для безпечного завантаження."
+
+#~ msgid "Sorry, this file type is not permitted for security reasons."
+#~ msgstr "На жаль, цей тип файлу заборонений з міркувань безпеки."
+
+#~ msgid "Failed to move uploaded file"
+#~ msgstr "Не вдалося перемістити завантажений файл"
 
 #~ msgid "Portal options"
 #~ msgstr "Налаштування порталу"
