@@ -503,3 +503,38 @@ function asff_redirect_edit_to_download() {
         }
     }
 }
+
+// 7. AJAX Endpoint for Media Modal
+add_action('wp_ajax_asff_get_secure_files', 'asff_get_secure_files_ajax');
+function asff_get_secure_files_ajax() {
+    check_ajax_referer('acf_nonce', 'nonce');
+
+    if ( ! current_user_can('upload_files') ) {
+        wp_send_json_error(array('message' => __('Permission denied.', 'acf-secure-file')));
+    }
+
+    $files_query = new WP_Query(array(
+        'post_type' => 'secure-file',
+        'posts_per_page' => -1,
+        'orderby' => 'title',
+        'order' => 'ASC',
+        'post_status' => array('private', 'publish'),
+    ));
+
+    $files_data = array();
+    if ( $files_query->have_posts() ) {
+        while ( $files_query->have_posts() ) {
+            $files_query->the_post();
+            $post_id = get_the_ID();
+            $files_data[] = array(
+                'id' => $post_id,
+                'name' => get_the_title(),
+                'hash' => get_post_meta($post_id, 'asff_download_hash', true),
+                'url' => home_url('/?secure-file-download=' . get_post_meta($post_id, 'asff_download_hash', true)),
+            );
+        }
+    }
+    wp_reset_postdata();
+
+    wp_send_json_success($files_data);
+}

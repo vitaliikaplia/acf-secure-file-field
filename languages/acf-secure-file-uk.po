@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: acf-secure-file\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-23 18:16+0200\n"
+"POT-Creation-Date: 2025-11-23 19:23+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
 "Language-Team: Vitalii Kaplia <vitalii.kaplia@gmail.com>\n"
@@ -153,21 +153,58 @@ msgstr "Файл не знайдено"
 msgid "This file does not have a valid download link."
 msgstr "Цей файл не має дійсного посилання для завантаження."
 
+#: acf-secure-file-field.php:513
+msgid "Permission denied."
+msgstr "В дозволі відмовлено."
+
+#: assets/js/input.js:94
+msgid "Select"
+msgstr "Обрати"
+
+#: assets/js/input.js:100
+msgid "No secure files found."
+msgstr "Безпечних файлів не знайдено."
+
+#: assets/js/input.js:107
+msgid "An error occurred while fetching files."
+msgstr "Під час завантаження файлів сталася помилка."
+
+#: assets/js/input.js:149
+msgid "Upload failed."
+msgstr "Завантаження не вдалося."
+
+#: assets/js/input.js:168 includes/class-acf-field-secure-file.php:45
+msgid "Download"
+msgstr "Завантажити"
+
+#: assets/js/input.js:180 includes/class-acf-field-secure-file.php:43
+msgid "No file selected"
+msgstr "Файл не вибрано"
+
 #: includes/class-acf-field-secure-file.php:8
+#: includes/class-acf-field-secure-file.php:58
 msgid "Secure File"
 msgstr "Безпечний файл"
 
-#: includes/class-acf-field-secure-file.php:46
-msgid "Download"
-msgstr "Завантажити"
+#: includes/class-acf-field-secure-file.php:49
+msgid "Select File"
+msgstr "Вибрати файл"
 
 #: includes/class-acf-field-secure-file.php:50
 msgid "Remove"
 msgstr "Видалити"
 
-#: includes/class-acf-field-secure-file.php:57
-msgid "Select a file for secure upload"
-msgstr "Виберіть файл для безпечного завантаження"
+#: includes/class-acf-field-secure-file.php:63
+msgid "Upload New"
+msgstr "Завантажити нове"
+
+#: includes/class-acf-field-secure-file.php:64
+msgid "Select Existing"
+msgstr "Вибрати існуючий"
+
+#: includes/class-acf-field-secure-file.php:70
+msgid "Select or drag a file for secure upload."
+msgstr "Виберіть або перетягніть файл для безпечного завантаження."
 
 #~ msgid "Portal options"
 #~ msgstr "Налаштування порталу"
@@ -526,9 +563,6 @@ msgstr "Виберіть файл для безпечного завантаже
 #~ msgid "Ukraine Hosting Domains"
 #~ msgstr "Домени Хостингу Україна"
 
-#~ msgid "Select domain"
-#~ msgstr "Виберіть домен"
-
 #~ msgid "Ukraine Hosting Mail Domains"
 #~ msgstr "Поштові домени Хостингу Україна"
 
@@ -657,9 +691,6 @@ msgstr "Виберіть файл для безпечного завантаже
 
 #~ msgid "Search for redirect rules"
 #~ msgstr "Пошук правил перенаправлено"
-
-#~ msgid "No redirect rules found"
-#~ msgstr "Жодних правил перенаправлень не знайдено"
 
 #~ msgid "No redirect rules found in trash"
 #~ msgstr "Жодних правил перенаправлень не знайдено в кошику"
@@ -1300,9 +1331,6 @@ msgstr "Виберіть файл для безпечного завантаже
 
 #~ msgid "Support page"
 #~ msgstr "Сторінка підтримки"
-
-#~ msgid "Select"
-#~ msgstr "Обрати"
 
 #~ msgid "You can not delete this material."
 #~ msgstr "Ви не можете видалити цей матеріал."
@@ -2290,9 +2318,6 @@ msgstr "Виберіть файл для безпечного завантаже
 #~ msgstr ""
 #~ "Ми проводимо планове технічне обслуговування. Ми проводимо планове "
 #~ "технічне обслуговування. Незабаром ми знову будемо онлайн."
-
-#~ msgid "No pattern selected"
-#~ msgstr "Патерн не обрано"
 
 #~ msgid "Google maps API key to integrate with Advanced Custom Fields"
 #~ msgstr "Ключ API карт Google для інтеграції з Advanced Custom Fields"

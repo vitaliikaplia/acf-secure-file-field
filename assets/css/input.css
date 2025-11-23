@@ -1,39 +1,161 @@
-.acf-secure-file-wrapper {
-    border: 1px dashed #ccc;
-    padding: 15px;
+.acf-secure-file-wrapper .asff-file-preview.no-file .asff-remove-file {
+    display: none;
+}
+.acf-secure-file-wrapper .asff-file-preview.has-file .asff-remove-file {
+    display: inline-block;
+}
+.acf-secure-file-wrapper .asff-file-preview .asff-selected-file {
+    margin-bottom: 10px;
+    padding: 10px;
     background: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.acf-secure-file-wrapper .asff-file-preview .filename {
+    margin-left: 8px;
+    font-weight: bold;
+}
+.acf-secure-file-wrapper .asff-file-preview.no-file .filename {
+    color: #999;
+}
+.acf-secure-file-wrapper .asff-download {
+    margin-left: auto;
+}
+
+/* Modal Styles */
+.asff-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asff-modal-content {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
     border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+.asff-modal-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.asff-modal-header h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.asff-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+.asff-modal-body {
+    padding: 20px;
+    min-height: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+/* Tabs */
+.asff-modal-tabs {
+    border-bottom: 1px solid #ddd;
+    margin: -20px -20px 20px -20px;
+    padding: 0 20px;
+}
+.asff-modal-tabs .asff-tab {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+}
+.asff-modal-tabs .asff-tab.active {
+    border-bottom-color: #0073aa;
+    font-weight: bold;
+}
+.asff-tab-content {
+    display: none;
+}
+.asff-tab-content.active {
+    display: block;
+}
+
+/* Uploader */
+.asff-uploader-ui {
+    padding: 20px;
+    border: 2px dashed #ddd;
+    text-align: center;
 }
 .asff-progress-bar {
-    height: 5px;
-    background: #e0e0e0;
-    margin-top: 10px;
+    height: 10px;
+    background: #eee;
+    margin: 15px 0;
     display: none;
-    border-radius: 2px;
-    overflow: hidden;
 }
 .asff-progress-bar .bar {
-    height: 100%;
-    background: #2271b1;
     width: 0;
+    height: 100%;
+    background: #0073aa;
     transition: width 0.2s;
 }
-.acf-secure-file-preview {
-    display: none;
-    align-items: center;
-    justify-content: space-between;
+
+/* File List */
+.asff-file-list-container {
+    position: relative;
+    min-height: 100px;
 }
-.acf-secure-file-preview.has-file {
+.asff-file-list-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.asff-file-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
     display: flex;
-}
-.hidden {
-    display: none !important;
-}
-.file-info {
-    display: flex;
     align-items: center;
-    gap: 10px;
 }
-.filename {
-    font-weight: 600;
+.asff-file-list-item:last-child {
+    border-bottom: none;
+}
+.asff-file-list-item .filename {
+    margin-left: 8px;
+}
+.asff-file-list-item .button {
+    margin-left: auto;
+}
+
+/* Loader */
+.asff-loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #0073aa;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
